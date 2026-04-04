@@ -9,6 +9,7 @@ const languageNames = {
   en: "English",
   es: "Español",
   fr: "Français",
+  hi: "हिन्दी",
   pt: "Português",
   "zh-TW": "繁體中文",
   "zh-CN": "简体中文",

@@ -6,6 +6,7 @@ import { ChevronDown } from "lucide-react"
 import { useState, useRef, useEffect } from "react"
 
 const languageNames = {
+  ar: "العربية",
   en: "English",
   es: "Español",
   fr: "Français",

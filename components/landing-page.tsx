@@ -50,10 +50,7 @@ export function LandingPage() {
         {/* Hero Section */}
         <section className="py-24 md:py-32 border-b border-border">
           <div className="container mx-auto px-6 text-center max-w-4xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold mb-6 text-balance tracking-tight">
-              {t("heroTitle")}
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground text-pretty max-w-2xl mx-auto leading-relaxed">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 text-balance tracking-tight text-foreground">
               {t("heroSubtitle")}
             </p>
           </div>
@@ -81,7 +78,7 @@ export function LandingPage() {
             <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-balance tracking-tight">
               {t("contactUs")}
             </h2>
-            <div className="max-w-xl mx-auto space-y-8">
+            <div className="w-4/5 mx-auto space-y-8">
               <div className="p-8 rounded-lg border border-border bg-card">
                 <h3 className="text-lg font-medium text-foreground mb-4">{t("companyName")}</h3>
                 

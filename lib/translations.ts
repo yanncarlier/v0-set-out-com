@@ -464,75 +464,75 @@ export const translations = {
     // Navigation
     about: "Sobre",
     services: "Serviços",
-    contact: "Contato",
+    contact: "Contacto",
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
-    heroEyebrow: "Soluções de tecnologia e negócios",
+    heroEyebrow: "Soluções de tecnologia e de negócio",
     heroSubtitle:
-      "Capacitando indivíduos e organizações através de serviços técnicos especializados, treinamento e desenvolvimento",
+      "Capacitar indivíduos e organizações através de serviços técnicos especializados, formação e desenvolvimento",
 
     // About Section
     technologyServices: "Serviços de Tecnologia",
     technologyServicesDesc:
-      "Nossa equipe de profissionais experientes é dedicada a fornecer serviços e treinamentos inovadores de alta qualidade que geram resultados reais e mudanças duradouras.",
-    ourMission: "Nossa Missão",
+      "A nossa equipa de profissionais experientes dedica-se a prestar serviços e formação inovadores de elevada qualidade que geram resultados reais e mudanças duradouras.",
+    ourMission: "A Nossa Missão",
     ourMissionDesc:
-      "Inspirar crescimento, promover excelência e facilitar transformação positiva em indivíduos e organizações através de serviços técnicos de ponta, treinamento e desenvolvimento.",
+      "Inspirar crescimento, promover a excelência e facilitar uma transformação positiva em indivíduos e organizações através de serviços técnicos de ponta, formação e desenvolvimento.",
 
     // Services Section
-    ourServices: "Nossos Serviços",
+    ourServices: "Os Nossos Serviços",
     servicePortfolio: "Portfólio de serviços",
-    backToHome: "Voltar para a página inicial",
+    backToHome: "Voltar à página inicial",
 
     // Service Items
     importExport: "Importação, exportação e comércio de produtos lógicos e equipamentos (hardware e software)",
     importExportDesc:
-      "Acesse hardware e software de ponta através de nossas soluções globais de importação-exportação, adaptadas às suas necessidades comerciais.",
+      "Aceda a hardware e software de ponta através das nossas soluções globais de importação e exportação, adaptadas às necessidades do seu negócio.",
 
-    consultancy: "Consultoria e serviços em engenharia elétrica, tecnologia da informação e comunicação",
+    consultancy: "Consultoria e serviços em engenharia elétrica, tecnologias de informação e comunicação",
     consultancyDesc:
-      "Otimize seus processos de engenharia de sistemas, TI e comunicação com nossos serviços especializados de consultoria.",
+      "Otimize os seus processos de engenharia de sistemas, TI e comunicação com os nossos serviços especializados de consultoria.",
 
-    subcontracting: "Subcontratação em tecnologia da informação",
+    subcontracting: "Subcontratação em tecnologias de informação",
     subcontractingDesc:
-      "Escale sem esforço com nossa subcontratação flexível de TI—suporte especializado sem sobrecarga.",
+      "Expanda com facilidade através da nossa subcontratação flexível de TI, com apoio especializado sem custos excessivos.",
 
     projectManagement: "Gestão de Projetos",
     projectManagementDesc:
-      "Transforme visões em realidade com gestão de projetos precisa e orientada por objetivos que entrega no prazo e orçamento.",
+      "Transforme visões em realidade com uma gestão de projetos precisa e orientada por objetivos, entregue dentro do prazo e do orçamento.",
 
-    training: "Treinamento e Formação",
+    training: "Formação e Capacitação",
     trainingDesc:
-      "Equipe sua equipe com as habilidades para se destacar através de nossos programas de treinamento personalizados.",
+      "Dote a sua equipa das competências necessárias para se destacar através dos nossos programas de formação personalizados.",
     leadershipDev: "Desenvolvimento de Liderança",
-    teamBuilding: "Construção de Equipe",
-    professionalSkills: "Habilidades Profissionais",
+    teamBuilding: "Construção de Equipa",
+    professionalSkills: "Competências Profissionais",
 
-    digitalMarketing: "Marketing Digital",
+    digitalMarketing: "Marketing digital",
     digitalMarketingDesc:
-      "Faça sua marca crescer online com campanhas estratégicas que envolvem e convertem seu público.",
+      "Faça crescer a sua marca online com campanhas estratégicas que envolvem e convertem o seu público.",
 
-    softwareDev: "Desenvolvimento de Software",
-    softwareDevDesc: "Construa soluções de software inovadoras e escaláveis personalizadas para sua visão única.",
+    softwareDev: "Desenvolvimento de software",
+    softwareDevDesc: "Crie soluções de software inovadoras e escaláveis, personalizadas para a sua visão única.",
 
     technicalAssistance: "Assistência Técnica",
     technicalAssistanceDesc:
-      "Forneça infraestrutura técnica de ponta, desenvolvimento e suporte para manter sua equipe na vanguarda dos avanços tecnológicos.",
+      "Disponibilize infraestrutura técnica de ponta, desenvolvimento e apoio para manter a sua equipa na vanguarda dos avanços tecnológicos.",
 
     // Contact Section
-    contactUs: "Entre em Contato",
+    contactUs: "Entre em contacto",
     companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
-    address: "Endereço: Escritório de Macau",
+    address: "Morada: Escritório de Macau",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
     addressLine3: '17 Andar, "O", Macau',
     phone: "Telefone: (853) 28389275",
-    email: "Email: Contact at set-out dot com",
-    businessHours: "Horário Comercial: Segunda - Sexta: 9:00 - 17:00",
-    registration: "Registro: 44438(SO)",
+    email: "E-mail: Contact at set-out dot com",
+    businessHours: "Horário de funcionamento: Segunda a sexta-feira: 9:00 - 17:00",
+    registration: "Registo: 44438(SO)",
     companyObject:
-      "Objeto da empresa: 1 - Importação, exportação e comércio de produtos lógicos e equipamentos (hardware e software); 2 - Consultoria e análise de serviços em engenharia elétrica, tecnologia da informação e comunicação; 3 - Subcontratação em tecnologia da informação; 4 - Gestão de projetos; 5 - Treinamento, formação; 6 - Marketing Digital; 7 - Desenvolvimento de Software; 8 - Assistência técnica;",
+      "Objeto da empresa: 1 - Importação, exportação e comércio de produtos lógicos e equipamentos (hardware e software); 2 - Consultoria e análise de serviços em engenharia elétrica, tecnologias de informação e comunicação; 3 - Subcontratação em tecnologias de informação; 4 - Gestão de projetos; 5 - Formação e capacitação; 6 - Marketing digital; 7 - Desenvolvimento de software; 8 - Assistência técnica;",
 
     // Footer
     allRightsReserved: "Todos os direitos reservados.",

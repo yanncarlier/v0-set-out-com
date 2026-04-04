@@ -1,5 +1,6 @@
-import { LandingPage } from "@/components/landing-page"
+import { redirect } from "next/navigation"
+import { defaultLanguage } from "@/lib/site"
 
 export default function Page() {
-  return <LandingPage />
+  redirect(`/${defaultLanguage}`)
 }

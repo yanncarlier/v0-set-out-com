@@ -1,27 +1,26 @@
 import type React from "react"
+import { headers } from "next/headers"
 import type { Metadata, Viewport } from "next"
 import "./globals.css"
-import { LanguageProvider } from "@/contexts/language-context"
+import { defaultLanguage, getDirection, isValidLanguage, siteUrl } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    template: "%s",
+  },
   description:
     "Leading provider of technology services, import/export solutions, consultancy, and professional development training across multiple industries.",
-  keywords: [
-    "technology services",
-    "import export",
-    "consultancy",
-    "project management",
-    "training",
-    "digital marketing",
-  ],
   authors: [{ name: "SET-OUT INTERNATIONAL COMPANY LIMITED" }],
+  alternates: {
+    canonical: `/${defaultLanguage}`,
+  },
   openGraph: {
     title: "SET-OUT INTERNATIONAL COMPANY LIMITED",
     description: "Leading provider of technology services and business solutions",
     type: "website",
   },
-    generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
@@ -30,16 +29,21 @@ export const viewport: Viewport = {
   themeColor: "#0b1424",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const localeHeader = (await headers()).get("x-locale")
+  const htmlLanguage = localeHeader && isValidLanguage(localeHeader) ? localeHeader : defaultLanguage
+
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="antialiased">
-        <LanguageProvider>{children}</LanguageProvider>
-      </body>
+    <html
+      lang={htmlLanguage}
+      dir={getDirection(htmlLanguage)}
+      suppressHydrationWarning
+    >
+      <body className="antialiased">{children}</body>
     </html>
   )
 }

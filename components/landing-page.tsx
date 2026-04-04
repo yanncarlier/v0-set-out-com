@@ -1,10 +1,11 @@
 "use client"
+import Link from "next/link"
 import Footer from "@/components/footer"
 import { LanguageSelector } from "@/components/language-selector"
 import { useLanguage } from "@/contexts/language-context"
 
 export function LandingPage() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -16,28 +17,28 @@ export function LandingPage() {
             <nav className="hidden md:block">
               <ul className="flex gap-8">
                 <li>
-                  <a
-                    href="#about"
+                  <Link
+                    href={`/${language}#about`}
                     className="text-muted-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide"
                   >
                     {t("about")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/services"
+                  <Link
+                    href={`/${language}/services`}
                     className="text-muted-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide"
                   >
                     {t("services")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#contact"
+                  <Link
+                    href={`/${language}#contact`}
                     className="text-muted-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide"
                   >
                     {t("contact")}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

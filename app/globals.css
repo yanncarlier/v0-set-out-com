@@ -11,38 +11,36 @@
   }
 }
 
-/* 
-  3-COLOR MINIMALIST DARK PALETTE
-  ================================
-  Background:   #0A0A0B (HSL: 240 7% 4%)   - Deep charcoal
-  Primary Text: #E5E5E5 (HSL: 0 0% 90%)    - Soft white
-  Accent:       #3B82F6 (HSL: 217 91% 60%) - Electric blue
+/*
+  DEEP NAVY PROFESSIONAL PALETTE
+  ==============================
+  Background:   #0B1424 - deep navy
+  Primary Text: #F7FBFF - crisp white
+  Accent:       #3DD9D6 - teal/cyan
 */
 
 @layer base {
   :root {
-    /* Core 3-color system */
-    --background: 240 7% 4%;
-    --foreground: 0 0% 90%;
-    --accent: 217 91% 60%;
-    --accent-foreground: 0 0% 100%;
-    
-    /* Extended tokens derived from 3-color system */
-    --card: 240 6% 6%;
-    --card-foreground: 0 0% 90%;
-    --popover: 240 6% 8%;
-    --popover-foreground: 0 0% 90%;
-    --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 240 5% 12%;
-    --secondary-foreground: 0 0% 90%;
-    --muted: 240 5% 15%;
-    --muted-foreground: 0 0% 55%;
+    --background: 217 49% 10%;
+    --foreground: 200 100% 98%;
+    --accent: 179 68% 54%;
+    --accent-foreground: 217 49% 12%;
+
+    --card: 217 38% 15%;
+    --card-foreground: 200 100% 98%;
+    --popover: 217 36% 17%;
+    --popover-foreground: 200 100% 98%;
+    --primary: 186 84% 58%;
+    --primary-foreground: 217 49% 12%;
+    --secondary: 216 28% 22%;
+    --secondary-foreground: 200 100% 98%;
+    --muted: 216 28% 18%;
+    --muted-foreground: 210 22% 72%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 240 5% 18%;
-    --input: 240 5% 18%;
-    --ring: 217 91% 60%;
+    --border: 213 28% 28%;
+    --input: 213 28% 28%;
+    --ring: 186 84% 58%;
     --radius: 0.5rem;
   }
 }
@@ -59,6 +57,11 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
+    background-image:
+      radial-gradient(circle at top, hsl(186 84% 58% / 0.16), transparent 34%),
+      radial-gradient(circle at 85% 18%, hsl(195 95% 65% / 0.12), transparent 22%),
+      linear-gradient(180deg, hsl(217 49% 12%), hsl(217 49% 10%));
+    background-attachment: fixed;
   }
   
   /* Modern focus states */

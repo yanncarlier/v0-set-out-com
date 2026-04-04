@@ -7,6 +7,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroEyebrow: "Technology and Business Solutions",
     heroSubtitle:
       "Empowering individuals and organizations through expert technical services, training and development",
 
@@ -20,6 +21,8 @@ export const translations = {
 
     // Services Section
     ourServices: "Our Services",
+    servicePortfolio: "Service Portfolio",
+    backToHome: "Back to Home",
 
     // Service Items
     importExport: "Import export and commerce of logical products and equipment (hardware and software)",
@@ -79,6 +82,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroEyebrow: "Solutions technologiques et commerciales",
     heroSubtitle:
       "Autonomiser les individus et les organisations grâce à des services techniques experts, de la formation et du développement",
 
@@ -92,6 +96,8 @@ export const translations = {
 
     // Services Section
     ourServices: "Nos Services",
+    servicePortfolio: "Portefeuille de services",
+    backToHome: "Retour à l'accueil",
 
     // Service Items
     importExport: "Import export et commerce de produits logiques et équipements (matériel et logiciel)",
@@ -154,6 +160,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroEyebrow: "Soluções de tecnologia e negócios",
     heroSubtitle:
       "Capacitando indivíduos e organizações através de serviços técnicos especializados, treinamento e desenvolvimento",
 
@@ -167,6 +174,8 @@ export const translations = {
 
     // Services Section
     ourServices: "Nossos Serviços",
+    servicePortfolio: "Portfólio de serviços",
+    backToHome: "Voltar para a página inicial",
 
     // Service Items
     importExport: "Importação, exportação e comércio de produtos lógicos e equipamentos (hardware e software)",
@@ -229,6 +238,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "啟程國際有限公司",
+    heroEyebrow: "技術與商業解決方案",
     heroSubtitle: "透過專業技術服務、培訓和發展，賦能個人和組織",
 
     // About Section
@@ -239,6 +249,8 @@ export const translations = {
 
     // Services Section
     ourServices: "我們的服務",
+    servicePortfolio: "服務項目",
+    backToHome: "返回首頁",
 
     // Service Items
     importExport: "邏輯產品和設備（硬體和軟體）的進出口和商業",
@@ -294,6 +306,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "启程国际有限公司",
+    heroEyebrow: "技术与商业解决方案",
     heroSubtitle: "通过专业技术服务、培训和发展，赋能个人和组织",
 
     // About Section
@@ -304,6 +317,8 @@ export const translations = {
 
     // Services Section
     ourServices: "我们的服务",
+    servicePortfolio: "服务项目",
+    backToHome: "返回首页",
 
     // Service Items
     importExport: "逻辑产品和设备（硬件和软件）的进出口和商业",

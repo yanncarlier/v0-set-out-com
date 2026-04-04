@@ -10,6 +10,7 @@ const languageNames = {
   es: "Español",
   fr: "Français",
   hi: "हिन्दी",
+  ja: "日本語",
   pt: "Português",
   "zh-TW": "繁體中文",
   "zh-CN": "简体中文",

@@ -306,6 +306,83 @@ export const translations = {
     allRightsReserved: "सर्वाधिकार सुरक्षित।",
   },
 
+  ja: {
+    // Navigation
+    about: "会社概要",
+    services: "サービス",
+    contact: "お問い合わせ",
+
+    // Hero Section
+    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroEyebrow: "テクノロジーとビジネスソリューション",
+    heroSubtitle:
+      "高度な技術サービス、トレーニング、能力開発を通じて個人と組織を支援します",
+
+    // About Section
+    technologyServices: "技術サービス",
+    technologyServicesDesc:
+      "経験豊富な専門チームが、高品質で革新的なサービスとトレーニングを提供し、確かな成果と持続的な変化を実現します。",
+    ourMission: "私たちの使命",
+    ourMissionDesc:
+      "最先端の技術サービス、トレーニング、能力開発を通じて、成長を促し、卓越性を育み、個人と組織に前向きな変革をもたらします。",
+
+    // Services Section
+    ourServices: "私たちのサービス",
+    servicePortfolio: "サービス一覧",
+    backToHome: "ホームに戻る",
+
+    // Service Items
+    importExport: "論理製品および機器（ハードウェア・ソフトウェア）の輸出入および販売",
+    importExportDesc:
+      "お客様のビジネスニーズに合わせた当社のグローバルな輸出入ソリューションを通じて、最先端のハードウェアとソフトウェアをご提供します。",
+
+    consultancy: "電気工学、情報技術、通信分野におけるコンサルティングおよびサービス",
+    consultancyDesc:
+      "当社の専門コンサルティングにより、システムエンジニアリング、IT、通信プロセスを最適化します。",
+
+    subcontracting: "情報技術分野における下請け業務",
+    subcontractingDesc:
+      "柔軟なIT下請けサービスにより、余分な負担なく専門的な支援を受けながらスムーズに拡張できます。",
+
+    projectManagement: "プロジェクト管理",
+    projectManagementDesc:
+      "正確で目標志向のプロジェクト管理により、構想を期限内かつ予算内で現実へと導きます。",
+
+    training: "研修・育成",
+    trainingDesc: "お客様のチームが成果を上げられるよう、ニーズに合わせた研修プログラムを提供します。",
+    leadershipDev: "リーダーシップ開発",
+    teamBuilding: "チームビルディング",
+    professionalSkills: "プロフェッショナルスキル",
+
+    digitalMarketing: "デジタルマーケティング",
+    digitalMarketingDesc:
+      "戦略的なキャンペーンによってオンライン上でブランドを成長させ、ターゲット層の関心を引き、成果へとつなげます。",
+
+    softwareDev: "ソフトウェア開発",
+    softwareDevDesc: "お客様独自のビジョンに合わせた革新的で拡張性の高いソフトウェアソリューションを構築します。",
+
+    technicalAssistance: "技術支援",
+    technicalAssistanceDesc:
+      "最先端の技術インフラ、開発、サポートを提供し、チームが技術進歩の最前線に立ち続けられるよう支援します。",
+
+    // Contact Section
+    contactUs: "お問い合わせ",
+    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    address: "住所：マカオオフィス",
+    addressLine1: "Alameda Dr. Carlos D' Assumpção,",
+    addressLine2: "n.º 336, Cheng Feng Commercial Building,",
+    addressLine3: '17階 "O", マカオ',
+    phone: "電話: (853) 28389275",
+    email: "メール: Contact at set-out dot com",
+    businessHours: "営業時間: 月曜日 - 金曜日: 9:00AM - 5:00PM",
+    registration: "登録番号: 44438(SO)",
+    companyObject:
+      "事業内容: 1 - 論理製品および機器（ハードウェア・ソフトウェア）の輸出入および販売; 2 - 電気工学、情報技術、通信分野におけるコンサルティングおよびサービス分析; 3 - 情報技術分野における下請け業務; 4 - プロジェクト管理; 5 - 研修・育成; 6 - デジタルマーケティング; 7 - ソフトウェア開発; 8 - 技術支援;",
+
+    // Footer
+    allRightsReserved: "無断転載を禁じます。",
+  },
+
   pt: {
     // Navigation
     about: "Sobre",

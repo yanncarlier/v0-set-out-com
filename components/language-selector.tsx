@@ -7,6 +7,7 @@ import { useState, useRef, useEffect } from "react"
 
 const languageNames = {
   en: "English",
+  es: "Español",
   fr: "Français",
   pt: "Português",
   "zh-TW": "繁體中文",

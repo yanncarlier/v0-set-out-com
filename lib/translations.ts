@@ -74,6 +74,83 @@ export const translations = {
     allRightsReserved: "All rights reserved.",
   },
 
+  es: {
+    // Navigation
+    about: "Acerca de",
+    services: "Servicios",
+    contact: "Contacto",
+
+    // Hero Section
+    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroEyebrow: "Soluciones tecnológicas y empresariales",
+    heroSubtitle:
+      "Impulsando a personas y organizaciones mediante servicios técnicos especializados, formación y desarrollo",
+
+    // About Section
+    technologyServices: "Servicios tecnológicos",
+    technologyServicesDesc:
+      "Nuestro equipo de profesionales experimentados está dedicado a ofrecer servicios y formación innovadores de alta calidad que generan resultados reales y cambios duraderos.",
+    ourMission: "Nuestra misión",
+    ourMissionDesc:
+      "Inspirar crecimiento, fomentar la excelencia y facilitar una transformación positiva en personas y organizaciones mediante servicios técnicos de vanguardia, formación y desarrollo.",
+
+    // Services Section
+    ourServices: "Nuestros servicios",
+    servicePortfolio: "Portafolio de servicios",
+    backToHome: "Volver al inicio",
+
+    // Service Items
+    importExport: "Importación, exportación y comercio de productos lógicos y equipos (hardware y software)",
+    importExportDesc:
+      "Acceda a hardware y software de vanguardia mediante nuestras soluciones globales de importación y exportación, adaptadas a las necesidades de su empresa.",
+
+    consultancy: "Consultoría y servicios en ingeniería eléctrica, tecnología de la información y comunicación",
+    consultancyDesc:
+      "Optimice sus procesos de ingeniería de sistemas, TI y comunicación con nuestros servicios expertos de consultoría.",
+
+    subcontracting: "Subcontratación en tecnología de la información",
+    subcontractingDesc:
+      "Escale con facilidad gracias a nuestra subcontratación flexible de TI: soporte experto sin la sobrecarga.",
+
+    projectManagement: "Gestión de proyectos",
+    projectManagementDesc:
+      "Convierta las ideas en realidad con una gestión de proyectos precisa y orientada a objetivos, entregada a tiempo y dentro del presupuesto.",
+
+    training: "Formación y capacitación",
+    trainingDesc: "Equipe a su equipo con las habilidades necesarias para sobresalir mediante nuestros programas de formación personalizados.",
+    leadershipDev: "Desarrollo de liderazgo",
+    teamBuilding: "Construcción de equipos",
+    professionalSkills: "Habilidades profesionales",
+
+    digitalMarketing: "Marketing digital",
+    digitalMarketingDesc:
+      "Impulse su marca en línea con campañas estratégicas que atraen y convierten a su audiencia.",
+
+    softwareDev: "Desarrollo de software",
+    softwareDevDesc: "Construya soluciones de software innovadoras y escalables, personalizadas para su visión única.",
+
+    technicalAssistance: "Asistencia técnica",
+    technicalAssistanceDesc:
+      "Proporcione infraestructura técnica de vanguardia, desarrollo y soporte para mantener a su equipo a la delantera de los avances tecnológicos.",
+
+    // Contact Section
+    contactUs: "Contáctenos",
+    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    address: "Dirección: Oficina de Macao",
+    addressLine1: "Alameda Dr. Carlos D' Assumpção,",
+    addressLine2: "n.º 336, Cheng Feng Commercial Building,",
+    addressLine3: 'Piso 17, "O", Macao',
+    phone: "Teléfono: (853) 28389275",
+    email: "Correo electrónico: Contact at set-out dot com",
+    businessHours: "Horario comercial: Lunes - Viernes: 9:00AM - 5:00PM",
+    registration: "Registro: 44438(SO)",
+    companyObject:
+      "Objeto de la empresa: 1 - Importación, exportación y comercio de productos lógicos y equipos (hardware y software); 2 - Consultoría y análisis de servicios en ingeniería eléctrica, tecnología de la información y comunicación; 3 - Subcontratación en tecnología de la información; 4 - Gestión de proyectos; 5 - Formación y capacitación; 6 - Marketing digital; 7 - Desarrollo de software; 8 - Asistencia técnica;",
+
+    // Footer
+    allRightsReserved: "Todos los derechos reservados.",
+  },
+
   fr: {
     // Navigation
     about: "À propos",

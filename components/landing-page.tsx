@@ -81,7 +81,7 @@ export function LandingPage() {
             <h2 className="text-3xl md:text-4xl font-semibold mb-12 text-balance tracking-tight">
               {t("contactUs")}
             </h2>
-            <div className="max-w-xl mx-auto space-y-8">
+            <div className="w-4/5 mx-auto space-y-8">
               <div className="p-8 rounded-lg border border-border bg-card">
                 <h3 className="text-lg font-medium text-foreground mb-4">{t("companyName")}</h3>
                 

@@ -75,24 +75,6 @@ export function LandingPage() {
           </div>
         </section>
 
-        {/* Services CTA Section */}
-        <section className="py-20 md:py-24 border-t border-border">
-          <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-balance tracking-tight">
-              {t("ourServices")}
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Explore our comprehensive range of services designed to help your business thrive.
-            </p>
-            <a
-              href="/services"
-              className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-accent text-accent-foreground font-medium hover:bg-accent/90 transition-colors"
-            >
-              View All Services
-            </a>
-          </div>
-        </section>
-
         {/* Contact Section */}
         <section id="contact" className="py-20 md:py-24 border-t border-border">
           <div className="container mx-auto px-6 text-center">

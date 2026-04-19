@@ -7,6 +7,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "حلول التكنولوجيا والأعمال",
     heroSubtitle:
       "تمكين الأفراد والمؤسسات من خلال الخدمات التقنية المتخصصة والتدريب والتطوير",
@@ -72,6 +73,29 @@ export const translations = {
     companyObject:
       "غرض الشركة: 1 - استيراد وتصدير وتجارة المنتجات المنطقية والمعدات (الأجهزة والبرمجيات)؛ 2 - الاستشارات وتحليل الخدمات في الهندسة الكهربائية وتكنولوجيا المعلومات والاتصالات؛ 3 - التعاقد من الباطن في تكنولوجيا المعلومات؛ 4 - إدارة المشاريع؛ 5 - التدريب والتأهيل؛ 6 - التسويق الرقمي؛ 7 - تطوير البرمجيات؛ 8 - الدعم الفني؛",
 
+    // Stats
+    yearsExperience: "سنوات الخبرة",
+    projectsCompleted: "المشاريع المنجزة",
+    clientsWorldwide: "العملاء حول العالم",
+    
+    // CTA
+    exploreServices: "استكشف الخدمات",
+    getInTouch: "تواصل معنا",
+    sendMessage: "إرسال رسالة",
+    
+    // About Section
+    aboutTag: "من نحن",
+    aboutTitle: "نبني المستقبل معاً",
+    globalReach: "الانتشار العالمي",
+    globalReachDesc: "ربط الشركات عبر الحدود بحلول دولية سلسة وخبرة متخصصة.",
+    expertTeam: "فريق الخبراء",
+    expertTeamDesc: "محترفونا المؤهلون يجلبون سنوات من الخبرة والابتكار لكل مشروع.",
+    
+    // Contact Section
+    contactTag: "لنتحدث",
+    contactTitle: "تواصل معنا",
+    contactDesc: "هل لديك مشروع في ذهنك؟ نود أن نسمع منك. دعنا نناقش كيف يمكننا مساعدتك في تحقيق رؤيتك.",
+
     // Footer
     allRightsReserved: "جميع الحقوق محفوظة.",
   },
@@ -84,6 +108,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "Technology and Business Solutions",
     heroSubtitle:
       "Empowering individuals and organizations through expert technical services, training and development",
@@ -147,6 +172,29 @@ export const translations = {
     companyObject:
       "Company object: 1 - Import export and commerce of logical products and equipment (hardware and software); 2 - Consultancy and service analysis in electrical engineering, information technology and communication; 3 - Subcontracting in information technology; 4 - Project management; 5 - Training, formation; 6 - Digital Marketing; 7 - Software Development; 8 - Technical assistance;",
 
+    // Stats
+    yearsExperience: "Years Experience",
+    projectsCompleted: "Projects Completed",
+    clientsWorldwide: "Clients Worldwide",
+    
+    // CTA
+    exploreServices: "Explore Services",
+    getInTouch: "Get in Touch",
+    sendMessage: "Send Message",
+    
+    // About Section
+    aboutTag: "About Us",
+    aboutTitle: "Building the Future Together",
+    globalReach: "Global Reach",
+    globalReachDesc: "Connecting businesses across borders with seamless international solutions and expertise.",
+    expertTeam: "Expert Team",
+    expertTeamDesc: "Our skilled professionals bring years of experience and innovation to every project.",
+    
+    // Contact Section
+    contactTag: "Let's Talk",
+    contactTitle: "Get in Touch",
+    contactDesc: "Have a project in mind? We'd love to hear from you. Let's discuss how we can help bring your vision to life.",
+
     // Footer
     allRightsReserved: "All rights reserved.",
   },
@@ -159,6 +207,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNACIONAL",
     heroEyebrow: "Soluciones tecnológicas y empresariales",
     heroSubtitle:
       "Impulsando a personas y organizaciones mediante servicios técnicos especializados, formación y desarrollo",
@@ -224,6 +273,29 @@ export const translations = {
     companyObject:
       "Objeto de la empresa: 1 - Importación, exportación y comercio de productos lógicos y equipos (hardware y software); 2 - Consultoría y análisis de servicios en ingeniería eléctrica, tecnología de la información y comunicación; 3 - Subcontratación en tecnología de la información; 4 - Gestión de proyectos; 5 - Formación y capacitación; 6 - Marketing digital; 7 - Desarrollo de software; 8 - Asistencia técnica;",
 
+    // Stats
+    yearsExperience: "Años de Experiencia",
+    projectsCompleted: "Proyectos Completados",
+    clientsWorldwide: "Clientes Globales",
+    
+    // CTA
+    exploreServices: "Explorar Servicios",
+    getInTouch: "Contáctanos",
+    sendMessage: "Enviar Mensaje",
+    
+    // About Section
+    aboutTag: "Sobre Nosotros",
+    aboutTitle: "Construyendo el Futuro Juntos",
+    globalReach: "Alcance Global",
+    globalReachDesc: "Conectando empresas a través de fronteras con soluciones internacionales perfectas y experiencia.",
+    expertTeam: "Equipo Experto",
+    expertTeamDesc: "Nuestros profesionales calificados aportan años de experiencia e innovación a cada proyecto.",
+    
+    // Contact Section
+    contactTag: "Hablemos",
+    contactTitle: "Contáctanos",
+    contactDesc: "¿Tienes un proyecto en mente? Nos encantaría saber de ti. Discutamos cómo podemos ayudar a hacer realidad tu visión.",
+
     // Footer
     allRightsReserved: "Todos los derechos reservados.",
   },
@@ -236,6 +308,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "Solutions technologiques et commerciales",
     heroSubtitle:
       "Autonomiser les individus et les organisations grâce à des services techniques experts, de la formation et du développement",
@@ -302,6 +375,29 @@ export const translations = {
     companyObject:
       "Objet de la société : 1 - Import export et commerce de produits logiques et équipements (matériel et logiciel) ; 2 - Conseil et analyse de services en ingénierie électrique, technologie de l'information et communication ; 3 - Sous-traitance en technologie de l'information ; 4 - Gestion de projet ; 5 - Formation, développement ; 6 - Marketing Digital ; 7 - Développement Logiciel ; 8 - Assistance technique ;",
 
+    // Stats
+    yearsExperience: "Années d'Expérience",
+    projectsCompleted: "Projets Réalisés",
+    clientsWorldwide: "Clients Mondiaux",
+    
+    // CTA
+    exploreServices: "Explorer Services",
+    getInTouch: "Contactez-nous",
+    sendMessage: "Envoyer Message",
+    
+    // About Section
+    aboutTag: "À Propos",
+    aboutTitle: "Construire l'Avenir Ensemble",
+    globalReach: "Portée Mondiale",
+    globalReachDesc: "Connecter les entreprises à travers les frontières avec des solutions internationales fluides et expertise.",
+    expertTeam: "Équipe d'Experts",
+    expertTeamDesc: "Nos professionnels qualifiés apportent des années d'expérience et d'innovation à chaque projet.",
+    
+    // Contact Section
+    contactTag: "Parlons",
+    contactTitle: "Contactez-nous",
+    contactDesc: "Vous avez un projet en tête ? Nous aimerions vous entendre. Discutons de la façon dont nous pouvons donner vie à votre vision.",
+
     // Footer
     allRightsReserved: "Tous droits réservés.",
   },
@@ -314,6 +410,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "प्रौद्योगिकी और व्यावसायिक समाधान",
     heroSubtitle:
       "विशेषज्ञ तकनीकी सेवाओं, प्रशिक्षण और विकास के माध्यम से व्यक्तियों और संगठनों को सशक्त बनाना",
@@ -378,6 +475,29 @@ export const translations = {
     registration: "पंजीकरण: 44438(SO)",
     companyObject:
       "कंपनी का उद्देश्य: 1 - लॉजिकल उत्पादों और उपकरणों (हार्डवेयर और सॉफ्टवेयर) का आयात, निर्यात और व्यापार; 2 - विद्युत अभियांत्रिकी, सूचना प्रौद्योगिकी और संचार में परामर्श और सेवा विश्लेषण; 3 - सूचना प्रौद्योगिकी में सबकॉन्ट्रैक्टिंग; 4 - परियोजना प्रबंधन; 5 - प्रशिक्षण और विकास; 6 - डिजिटल मार्केटिंग; 7 - सॉफ्टवेयर विकास; 8 - तकनीकी सहायता;",
+
+    // Stats
+    yearsExperience: "वर्षों का अनुभव",
+    projectsCompleted: "पूरे किए गए प्रोजेक्ट",
+    clientsWorldwide: "विश्व भर के ग्राहक",
+    
+    // CTA
+    exploreServices: "सेवाएं देखें",
+    getInTouch: "संपर्क करें",
+    sendMessage: "मैसेज भेजें",
+    
+    // About Section
+    aboutTag: "हमारे बारे में",
+    aboutTitle: "साथ मिलकर भविष्य बनाना",
+    globalReach: "वैश्विक पहुंच",
+    globalReachDesc: "निर्बाध अंतर्राष्ट्रीय समाधानों और विशेषज्ञता के साथ सीमाओं के पार व्यवसायों को जोड़ना।",
+    expertTeam: "विशेषज्ञ टीम",
+    expertTeamDesc: "हमारे कुशल पेशेवर हर परियोजना में वर्षों के अनुभव और नवाचार लाते हैं।",
+    
+    // Contact Section
+    contactTag: "आइए बात करें",
+    contactTitle: "संपर्क करें",
+    contactDesc: "कोई परियोजना योजना में है? हम आपसे सुनना पसंद करेंगे। चलिए चर्चा करें कि हम आपके विजन को कैसे साकार कर सकते हैं।",
 
     // Footer
     allRightsReserved: "सर्वाधिकार सुरक्षित।",
@@ -456,6 +576,29 @@ export const translations = {
     companyObject:
       "事業内容: 1 - 論理製品および機器（ハードウェア・ソフトウェア）の輸出入および販売; 2 - 電気工学、情報技術、通信分野におけるコンサルティングおよびサービス分析; 3 - 情報技術分野における下請け業務; 4 - プロジェクト管理; 5 - 研修・育成; 6 - デジタルマーケティング; 7 - ソフトウェア開発; 8 - 技術支援;",
 
+    // Stats
+    yearsExperience: "実績年数",
+    projectsCompleted: "完了プロジェクト",
+    clientsWorldwide: "世界中のクライアント",
+    
+    // CTA
+    exploreServices: "サービスを見る",
+    getInTouch: "お問い合わせ",
+    sendMessage: "メッセージを送信",
+    
+    // About Section
+    aboutTag: "会社概要",
+    aboutTitle: "共に未来を築く",
+    globalReach: "グローバルリーチ",
+    globalReachDesc: "シームレスな国際ソリューションと専門知識で、国境を越えて企業をつなぎます。",
+    expertTeam: "エキスパートチーム",
+    expertTeamDesc: "熟練した専門家が、各プロジェクトに長年の経験と革新をもたらします。",
+    
+    // Contact Section
+    contactTag: "お話ししましょう",
+    contactTitle: "お問い合わせ",
+    contactDesc: "プロジェクトをお考えですか？ぜひお話をお聞かせください。ご提案を実現する方法についてご相談させていただきます。",
+
     // Footer
     allRightsReserved: "無断転載を禁じます。",
   },
@@ -468,6 +611,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitleAccent: "INTERNACIONAL",
     heroEyebrow: "Soluções de tecnologia e de negócio",
     heroSubtitle:
       "Capacitar indivíduos e organizações através de serviços técnicos especializados, formação e desenvolvimento",
@@ -534,6 +678,29 @@ export const translations = {
     companyObject:
       "Objeto da empresa: 1 - Importação, exportação e comércio de produtos lógicos e equipamentos (hardware e software); 2 - Consultoria e análise de serviços em engenharia elétrica, tecnologias de informação e comunicação; 3 - Subcontratação em tecnologias de informação; 4 - Gestão de projetos; 5 - Formação e capacitação; 6 - Marketing digital; 7 - Desenvolvimento de software; 8 - Assistência técnica;",
 
+    // Stats
+    yearsExperience: "Anos de Experiência",
+    projectsCompleted: "Projetos Concluídos",
+    clientsWorldwide: "Clientes Globais",
+    
+    // CTA
+    exploreServices: "Explorar Serviços",
+    getInTouch: "Contacte-nos",
+    sendMessage: "Enviar Mensagem",
+    
+    // About Section
+    aboutTag: "Sobre Nós",
+    aboutTitle: "Construindo o Futuro Juntos",
+    globalReach: "Alcance Global",
+    globalReachDesc: "Conectando empresas através das fronteiras com soluções internacionais perfeitas e experiência.",
+    expertTeam: "Equipa Especializada",
+    expertTeamDesc: "Os nossos profissionais qualificados trazem anos de experiência e inovação a cada projeto.",
+    
+    // Contact Section
+    contactTag: "Vamos Falar",
+    contactTitle: "Contacte-nos",
+    contactDesc: "Tem um projeto em mente? Adoraríamos ouvir de si. Vamos discutir como podemos ajudar a concretizar a sua visão.",
+
     // Footer
     allRightsReserved: "Todos os direitos reservados.",
   },
@@ -546,6 +713,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "啟程國際有限公司",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "技術與商業解決方案",
     heroSubtitle: "透過專業技術服務、培訓和發展，賦能個人和組織",
 
@@ -602,6 +770,29 @@ export const translations = {
     companyObject:
       "公司業務：1 - 邏輯產品和設備（硬體和軟體）的進出口和商業；2 - 電機工程、資訊技術和通訊的諮詢和服務分析；3 - 資訊技術分包；4 - 專案管理；5 - 培訓、教育；6 - 數位行銷；7 - 軟體開發；8 - 技術協助；",
 
+    // Stats
+    yearsExperience: "年經驗",
+    projectsCompleted: "完成項目",
+    clientsWorldwide: "全球客戶",
+    
+    // CTA
+    exploreServices: "探索服務",
+    getInTouch: "聯繫我們",
+    sendMessage: "發送訊息",
+    
+    // About Section
+    aboutTag: "關於我們",
+    aboutTitle: "攜手共建未來",
+    globalReach: "全球覆蓋",
+    globalReachDesc: "以無縫國際解決方案和專業知識，連接跨國界的企業。",
+    expertTeam: "專家團隊",
+    expertTeamDesc: "我們熟練的專業人員為每個項目帶來多年的經驗和創新。",
+    
+    // Contact Section
+    contactTag: "讓我們聊聊",
+    contactTitle: "聯繫我們",
+    contactDesc: "有項目想法嗎？我們很想聽聽。讓我們討論如何幫助您實現願景。",
+
     // Footer
     allRightsReserved: "版權所有。",
   },
@@ -614,6 +805,7 @@ export const translations = {
 
     // Hero Section
     heroTitle: "启程国际有限公司",
+    heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "技术与商业解决方案",
     heroSubtitle: "通过专业技术服务、培训和发展，赋能个人和组织",
 
@@ -669,6 +861,29 @@ export const translations = {
     registration: "注册：44438(SO)",
     companyObject:
       "公司业务：1 - 逻辑产品和设备（硬件和软件）的进出口和商业；2 - 电气工程、信息技术和通信的咨询和服务分析；3 - 信息技术分包；4 - 项目管理；5 - 培训、教育；6 - 数字营销；7 - 软件开发；8 - 技术协助；",
+
+    // Stats
+    yearsExperience: "年经验",
+    projectsCompleted: "完成项目",
+    clientsWorldwide: "全球客户",
+    
+    // CTA
+    exploreServices: "探索服务",
+    getInTouch: "联系我们",
+    sendMessage: "发送消息",
+    
+    // About Section
+    aboutTag: "关于我们",
+    aboutTitle: "携手共建未来",
+    globalReach: "全球覆盖",
+    globalReachDesc: "以无缝国际解决方案和专业知识，连接跨国界的企业。",
+    expertTeam: "专家团队",
+    expertTeamDesc: "我们熟练的专业人员为每个项目带来多年的经验和创新。",
+    
+    // Contact Section
+    contactTag: "让我们聊聊",
+    contactTitle: "联系我们",
+    contactDesc: "有项目想法吗？我们很想听听。让我们讨论如何帮助您实现愿景。",
 
     // Footer
     allRightsReserved: "版权所有。",

@@ -12,36 +12,73 @@
 }
 
 /*
-  DEEP NAVY PROFESSIONAL PALETTE
-  ==============================
-  Background:   #0B1424 - deep navy
-  Primary Text: #F7FBFF - crisp white
-  Accent:       #3DD9D6 - teal/cyan
+  CARLIER.SITE DESIGN SYSTEM
+  ==========================
+  Modern Dark Theme with Vibrant Accents
+  Background:   #0a0a0f - deep black
+  Primary:      #6366f1 - indigo
+  Accent 1:     #22d3ee - cyan
+  Accent 2:     #f472b6 - pink
+  Accent 3:     #a78bfa - purple
 */
 
 @layer base {
   :root {
-    --background: 217 49% 10%;
-    --foreground: 200 100% 98%;
-    --accent: 179 68% 54%;
-    --accent-foreground: 217 49% 12%;
-
-    --card: 217 38% 15%;
-    --card-foreground: 200 100% 98%;
-    --popover: 217 36% 17%;
-    --popover-foreground: 200 100% 98%;
-    --primary: 186 84% 58%;
-    --primary-foreground: 217 49% 12%;
-    --secondary: 216 28% 22%;
-    --secondary-foreground: 200 100% 98%;
-    --muted: 216 28% 18%;
-    --muted-foreground: 210 22% 72%;
+    /* Core Colors */
+    --background: 240 33% 4%;
+    --foreground: 0 0% 100%;
+    
+    /* Primary - Indigo */
+    --primary: 239 84% 67%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 239 84% 74%;
+    --primary-dark: 239 76% 57%;
+    
+    /* Accents */
+    --accent: 186 94% 53%;
+    --accent-foreground: 240 33% 4%;
+    --accent-pink: 330 81% 70%;
+    --accent-purple: 258 89% 76%;
+    
+    /* Card & Elevated Surfaces */
+    --card: 240 25% 10%;
+    --card-foreground: 0 0% 100%;
+    --card-elevated: 240 20% 9%;
+    
+    --popover: 240 20% 11%;
+    --popover-foreground: 0 0% 100%;
+    
+    --secondary: 240 15% 15%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 240 15% 12%;
+    --muted-foreground: 240 6% 55%;
+    
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 213 28% 28%;
-    --input: 213 28% 28%;
-    --ring: 186 84% 58%;
-    --radius: 0.5rem;
+    
+    --border: 240 15% 20%;
+    --input: 240 15% 20%;
+    --ring: 239 84% 67%;
+    --radius: 0.625rem;
+    
+    /* Custom Properties */
+    --color-bg: #0a0a0f;
+    --color-bg-elevated: #12121a;
+    --color-bg-card: #1a1a25;
+    --color-border: #2a2a3a;
+    --color-text: #ffffff;
+    --color-text-muted: #a0a0b0;
+    --color-text-dim: #6a6a7a;
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.3);
+    --shadow-glow-cyan: 0 0 40px rgba(34, 211, 238, 0.2);
   }
 }
 
@@ -52,20 +89,162 @@
   
   html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
-    background-image:
-      radial-gradient(circle at top, hsl(186 84% 58% / 0.16), transparent 34%),
-      radial-gradient(circle at 85% 18%, hsl(195 95% 65% / 0.12), transparent 22%),
-      linear-gradient(180deg, hsl(217 49% 12%), hsl(217 49% 10%));
-    background-attachment: fixed;
+    background-color: #0a0a0f;
+    line-height: 1.6;
   }
   
   /* Modern focus states */
   :focus-visible {
-    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-background;
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
   }
+}
+
+@layer components {
+  /* Gradient text utility */
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--primary-light)), hsl(var(--accent)), hsl(var(--accent-pink)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-primary {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
+  }
+  
+  .gradient-accent {
+    background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+  }
+  
+  /* Card hover effect */
+  .card-hover {
+    transition: all 250ms ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-4px);
+    border-color: hsl(var(--primary));
+    box-shadow: var(--shadow-glow);
+  }
+  
+  /* Glow effects */
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .glow-cyan {
+    box-shadow: var(--shadow-glow-cyan);
+  }
+  
+  /* Button primary gradient */
+  .btn-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
+    color: white;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    transition: all 250ms ease;
+  }
+  
+  .btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+  }
+  
+  /* Nav link underline effect */
+  .nav-link-underline {
+    position: relative;
+  }
+  
+  .nav-link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)));
+    transition: width 250ms ease;
+  }
+  
+  .nav-link-underline:hover::after {
+    width: 100%;
+  }
+  
+  /* Section tag style */
+  .section-tag {
+    @apply inline-block text-sm font-semibold uppercase tracking-widest;
+    color: hsl(var(--primary-light));
+  }
+  
+  /* Value card style */
+  .value-card {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 250ms ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-4px);
+    border-color: hsl(var(--primary));
+    box-shadow: var(--shadow-glow);
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(50px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(0, 50px) scale(0.95);
+  }
+  75% {
+    transform: translate(-50px, -25px) scale(1.05);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-float {
+  animation: float 20s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 2s ease-in-out infinite;
 }

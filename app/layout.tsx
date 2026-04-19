@@ -1,8 +1,21 @@
 import type React from "react"
 import { headers } from "next/headers"
 import type { Metadata, Viewport } from "next"
+import { Space_Grotesk, Inter } from "next/font/google"
 import "./globals.css"
 import { defaultLanguage, getDirection, isValidLanguage, siteUrl } from "@/lib/site"
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  display: "swap",
+})
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -26,7 +39,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0b1424",
+  themeColor: "#0a0a0f",
 }
 
 export default async function RootLayout({
@@ -42,8 +55,9 @@ export default async function RootLayout({
       lang={htmlLanguage}
       dir={getDirection(htmlLanguage)}
       suppressHydrationWarning
+      className={`${spaceGrotesk.variable} ${inter.variable}`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="font-body antialiased">{children}</body>
     </html>
   )
 }

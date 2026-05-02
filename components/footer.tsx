@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <footer className="border-t border-[#2a2a3a] bg-[#12121a] py-12">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="flex flex-col items-center justify-center gap-6 text-center">
           {/* Brand */}
-          <div className="text-center md:text-left">
+          <div className="text-center">
             <Link href={`/${language}`} className="font-display text-xl font-bold">
               <span className="bg-gradient-to-r from-primary-light to-accent bg-clip-text text-transparent">
                 SET-OUT
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="mt-8 pt-8 border-t border-[#2a2a3a] flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-8 pt-8 border-t border-[#2a2a3a] flex flex-col items-center justify-center gap-4 text-center">
           <p className="text-sm text-muted-foreground">
             &copy; {currentYear} {t("companyName")}. {t("allRightsReserved")}
           </p>

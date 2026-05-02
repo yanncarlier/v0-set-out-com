@@ -54,7 +54,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-6 pt-8">
           <Link
             href={`/${language}`}
-            className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-card/60 px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-accent/40 hover:text-accent"
+            className="inline-flex items-center gap-2 rounded-full border border-border/80 bg-card/60 px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-accent/40 hover:text-accent text-center"
           >
             <ArrowLeft className="h-4 w-4" />
             {t("backToHome")}
@@ -64,51 +64,46 @@ export default function ServicesPage() {
         <section className="py-16 md:py-20">
           <div className="container mx-auto px-6">
             <div className="mx-auto mb-16 max-w-3xl text-center">
-              <div className="mb-5 inline-flex items-center rounded-xl border border-border/90 bg-background/70 px-4 py-2 backdrop-blur-sm">
-                <span className="text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-accent">
-                  {t("servicePortfolio")}
-                </span>
-              </div>
               <h1 className="text-3xl font-semibold tracking-tight text-balance md:text-4xl lg:text-5xl">
                 {t("ourServices")}
               </h1>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("importExport")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("importExportDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("importExportDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("consultancy")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("consultancyDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("consultancyDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("subcontracting")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("subcontractingDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("subcontractingDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("projectManagement")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("projectManagementDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("projectManagementDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("training")}
                 </h3>
-                <div className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+                <div className="space-y-2 text-sm leading-relaxed text-muted-foreground text-center">
                   <p>{t("trainingDesc")}</p>
-                  <ul className="mt-3 space-y-1">
+                  <ul className="mt-3 space-y-1 text-center">
                     <li className="flex items-center gap-2">
                       <span className="h-1 w-1 rounded-full bg-accent" />
                       {t("leadershipDev")}
@@ -125,25 +120,25 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("digitalMarketing")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("digitalMarketingDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("digitalMarketingDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("softwareDev")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("softwareDevDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("softwareDevDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("technicalAssistance")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">{t("technicalAssistanceDesc")}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">{t("technicalAssistanceDesc")}</p>
               </div>
             </div>
           </div>

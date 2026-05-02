@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const locale = lang as Language
   const t = translations[locale]
   const title = `${t.ourServices} | SET-OUT INTERNATIONAL`
-  const description = `${t.servicePortfolio}. ${t.importExportDesc}`
+  const description = `${t.importExportDesc}`
 
   return {
     title,
@@ -58,7 +58,7 @@ export default async function LocalizedServicesPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: t.ourServices,
-    description: `${t.servicePortfolio}. ${t.importExportDesc}`,
+    description: `${t.importExportDesc}`,
     provider: {
       "@type": "Organization",
       name: "SET-OUT INTERNATIONAL",

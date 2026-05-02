@@ -42,7 +42,7 @@ export function LanguageSelector() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 rounded-full border border-border/80 bg-card/70 px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-accent/40 hover:text-foreground"
+        className="flex items-center gap-2 rounded-full border border-border/80 bg-card/70 px-4 py-2 text-sm text-muted-foreground transition-colors hover:border-accent/40 hover:text-accent text-center"
       >
         <span>{languageNames[language]}</span>
         <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
@@ -54,7 +54,7 @@ export function LanguageSelector() {
             <button
               key={lang}
               onClick={() => handleLanguageChange(lang as Language)}
-              className={`block w-full text-left px-4 py-2.5 text-sm transition-colors ${
+              className={`block w-full text-center px-4 py-2.5 text-sm transition-colors ${
                 language === lang
                   ? "bg-accent/10 text-accent"
                   : "text-popover-foreground hover:bg-muted"

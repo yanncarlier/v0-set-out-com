@@ -61,21 +61,7 @@ export function LandingPage() {
                 <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
                   {t("heroSubtitle")}
                 </p>
-                <nav className="mt-8 flex flex-wrap items-center justify-center gap-4">
-                  <Link
-                    href={`/${language}/services`}
-                    className="inline-flex items-center gap-2 rounded-xl border border-border/80 bg-card/75 px-6 py-3 text-sm font-medium transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]"
-                  >
-                    {t("exploreServices")}
-                  </Link>
-                  <Link
-                    href={`/${language}#contact`}
-                    className="inline-flex items-center gap-2 rounded-xl border border-border/80 bg-card/75 px-6 py-3 text-sm font-medium transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]"
-                  >
-                    {t("getInTouch")}
-                  </Link>
-                </nav>
-              </header>
+                              </header>
             </div>
           </div>
         </section>
@@ -84,38 +70,33 @@ export function LandingPage() {
         <section id="about" className="py-16 md:py-20">
           <div className="container mx-auto px-6">
             <header className="mx-auto mb-16 max-w-3xl text-center">
-              <div className="mb-5 inline-flex items-center rounded-xl border border-border/90 bg-background/70 px-4 py-2 backdrop-blur-sm">
-                <span className="text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-accent">
-                  {t("aboutTag")}
-                </span>
-              </div>
               <h2 className="text-3xl font-semibold tracking-tight text-balance md:text-4xl lg:text-5xl">
                 {t("aboutTitle")}
               </h2>
             </header>
             <article className="grid gap-6 md:grid-cols-2">
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("technologyServices")}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t("technologyServicesDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("ourMission")}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t("ourMissionDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("globalReach")}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t("globalReachDesc")}</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("expertTeam")}
                 </h3>
@@ -129,11 +110,6 @@ export function LandingPage() {
         <section id="contact" className="py-16 md:py-20">
           <div className="container mx-auto px-6">
             <header className="mx-auto mb-16 max-w-3xl text-center">
-              <div className="mb-5 inline-flex items-center rounded-xl border border-border/90 bg-background/70 px-4 py-2 backdrop-blur-sm">
-                <span className="text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-accent">
-                  {t("contactTag")}
-                </span>
-              </div>
               <h2 className="text-3xl font-semibold tracking-tight text-balance md:text-4xl lg:text-5xl">
                 {t("contactTitle")}
               </h2>
@@ -142,25 +118,25 @@ export function LandingPage() {
               </p>
             </header>
             
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <address className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
-                <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
+            <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-2">
+              <address className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+                <h3 className="mb-3 text-lg font-medium text-foreground text-center transition-colors group-hover:text-accent">
                   {t("address")}
                 </h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">
+                <p className="text-sm leading-relaxed text-muted-foreground text-center">
                   {t("addressLine1")} {t("addressLine2")}
                 </p>
               </address>
 
               
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
-                <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)]">
+                <h3 className="mb-3 text-lg font-medium text-foreground text-center transition-colors group-hover:text-accent">
                   {t("email")}
                 </h3>
-                <p className="text-sm leading-relaxed text-accent">Contact@set-out.com</p>
+                <p className="text-sm leading-relaxed text-accent text-center">Contact@set-out.com</p>
               </div>
 
-              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)] md:col-span-2 lg:col-span-3">
+              <div className="group rounded-3xl border border-border/80 bg-card/75 p-6 text-center shadow-[0_18px_50px_rgba(4,12,27,0.28)] transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_24px_65px_rgba(6,24,44,0.4)] md:col-span-2">
                 <h3 className="mb-3 text-lg font-medium text-foreground transition-colors group-hover:text-accent">
                   {t("companyName")}
                 </h3>

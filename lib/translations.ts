@@ -123,8 +123,7 @@ export const translations = {
 
     // Services Section
     ourServices: "Our Services",
-    servicePortfolio: "Service Portfolio",
-    backToHome: "Back to Home",
+        backToHome: "Back to Home",
 
     // Service Items
     importExport: "Import export and commerce of logical products and equipment (hardware and software)",
@@ -178,21 +177,17 @@ export const translations = {
     clientsWorldwide: "Clients Worldwide",
     
     // CTA
-    exploreServices: "Explore Services",
-    getInTouch: "Get in Touch",
-    sendMessage: "Send Message",
+            sendMessage: "Send Message",
     
     // About Section
-    aboutTag: "About Us",
-    aboutTitle: "Building the Future Together",
+        aboutTitle: "Building the Future Together",
     globalReach: "Global Reach",
     globalReachDesc: "Connecting businesses across borders with seamless international solutions and expertise.",
     expertTeam: "Expert Team",
     expertTeamDesc: "Our skilled professionals bring years of experience and innovation to every project.",
     
     // Contact Section
-    contactTag: "Let's Talk",
-    contactTitle: "Get in Touch",
+        contactTitle: "Get in Touch",
     contactDesc: "Have a project in mind? We'd love to hear from you. Let's discuss how we can help bring your vision to life.",
 
     // Footer

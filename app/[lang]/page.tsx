@@ -36,6 +36,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   }
 }
 
@@ -54,7 +59,6 @@ export default async function LocalizedHomePage({ params }: PageProps) {
     "@type": "Organization",
     name: "SET-OUT INTERNATIONAL",
     url: `${siteUrl}/${locale}`,
-    telephone: "+853-28389275",
     address: {
       "@type": "PostalAddress",
       streetAddress: `${translations.en.addressLine1} ${translations.en.addressLine2}`,

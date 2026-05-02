@@ -25,6 +25,19 @@ export const metadata: Metadata = {
   },
   description:
     "Leading provider of technology services, import/export solutions, consultancy, and professional development training across multiple industries.",
+  keywords: [
+    "technology services",
+    "import export solutions", 
+    "IT consultancy",
+    "project management",
+    "professional training",
+    "software development",
+    "digital marketing",
+    "technical assistance",
+    "business solutions",
+    "international trade",
+    "Macau business"
+  ],
   authors: [{ name: "SET-OUT INTERNATIONAL" }],
   alternates: {
     canonical: `/${defaultLanguage}`,
@@ -34,12 +47,17 @@ export const metadata: Metadata = {
     description: "Leading provider of technology services and business solutions",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "SET-OUT INTERNATIONAL",
+    description: "Leading provider of technology services and business solutions",
+  },
 }
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0a0a0f",
+  themeColor: "#ffffff",
 }
 
 export default async function RootLayout({

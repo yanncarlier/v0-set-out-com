@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const locale = lang as Language
   const t = translations[locale]
-  const title = `${t.ourServices} | SET-OUT INTERNATIONAL COMPANY LIMITED`
+  const title = `${t.ourServices} | SET-OUT INTERNATIONAL`
   const description = `${t.servicePortfolio}. ${t.importExportDesc}`
 
   return {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: `${siteUrl}/${locale}/services`,
-      siteName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+      siteName: "SET-OUT INTERNATIONAL",
       locale,
       type: "website",
     },

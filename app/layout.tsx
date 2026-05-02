@@ -20,17 +20,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    default: "SET-OUT INTERNATIONAL",
     template: "%s",
   },
   description:
     "Leading provider of technology services, import/export solutions, consultancy, and professional development training across multiple industries.",
-  authors: [{ name: "SET-OUT INTERNATIONAL COMPANY LIMITED" }],
+  authors: [{ name: "SET-OUT INTERNATIONAL" }],
   alternates: {
     canonical: `/${defaultLanguage}`,
   },
   openGraph: {
-    title: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    title: "SET-OUT INTERNATIONAL",
     description: "Leading provider of technology services and business solutions",
     type: "website",
   },

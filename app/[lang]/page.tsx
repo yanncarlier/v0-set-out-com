@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const locale = lang as Language
   const t = translations[locale]
-  const title = "SET-OUT INTERNATIONAL COMPANY LIMITED"
+  const title = "SET-OUT INTERNATIONAL"
   const description = t.heroSubtitle
 
   return {
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: `${siteUrl}/${locale}`,
-      siteName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+      siteName: "SET-OUT INTERNATIONAL",
       locale,
       type: "website",
     },
@@ -52,7 +52,7 @@ export default async function LocalizedHomePage({ params }: PageProps) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    name: "SET-OUT INTERNATIONAL",
     url: `${siteUrl}/${locale}`,
     telephone: "+853-28389275",
     address: {

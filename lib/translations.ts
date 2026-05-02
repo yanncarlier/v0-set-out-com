@@ -6,7 +6,7 @@ export const translations = {
     contact: "اتصل بنا",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "حلول التكنولوجيا والأعمال",
     heroSubtitle:
@@ -61,7 +61,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "اتصل بنا",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "العنوان: مكتب ماكاو",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -107,7 +107,7 @@ export const translations = {
     contact: "Contact",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "Technology and Business Solutions",
     heroSubtitle:
@@ -160,7 +160,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "Contact Us",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "Address: Macau Office",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -206,7 +206,7 @@ export const translations = {
     contact: "Contacto",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNACIONAL",
     heroEyebrow: "Soluciones tecnológicas y empresariales",
     heroSubtitle:
@@ -261,7 +261,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "Contáctenos",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "Dirección: Oficina de Macao",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -307,7 +307,7 @@ export const translations = {
     contact: "Contact",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "Solutions technologiques et commerciales",
     heroSubtitle:
@@ -363,7 +363,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "Contactez-nous",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "Adresse : Bureau de Macao",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -409,7 +409,7 @@ export const translations = {
     contact: "संपर्क",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNATIONAL",
     heroEyebrow: "प्रौद्योगिकी और व्यावसायिक समाधान",
     heroSubtitle:
@@ -464,7 +464,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "संपर्क करें",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "पता: मकाऊ कार्यालय",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -510,7 +510,7 @@ export const translations = {
     contact: "お問い合わせ",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroEyebrow: "テクノロジーとビジネスソリューション",
     heroSubtitle:
       "高度な技術サービス、トレーニング、能力開発を通じて個人と組織を支援します",
@@ -564,7 +564,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "お問い合わせ",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "住所：マカオオフィス",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",
@@ -610,7 +610,7 @@ export const translations = {
     contact: "Contacto",
 
     // Hero Section
-    heroTitle: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    heroTitle: "SET-OUT INTERNATIONAL",
     heroTitleAccent: "INTERNACIONAL",
     heroEyebrow: "Soluções de tecnologia e de negócio",
     heroSubtitle:
@@ -666,7 +666,7 @@ export const translations = {
 
     // Contact Section
     contactUs: "Entre em contacto",
-    companyName: "SET-OUT INTERNATIONAL COMPANY LIMITED",
+    companyName: "SET-OUT INTERNATIONAL",
     address: "Morada: Escritório de Macau",
     addressLine1: "Alameda Dr. Carlos D' Assumpção,",
     addressLine2: "n.º 336, Cheng Feng Commercial Building,",

@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Persona variant: Non-technical owner -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta Tags -->
+  <title>Run Odoo Without Understanding Servers</title>
+  <meta name="title" content="Run Odoo Without Understanding Servers">
+  <meta name="description"
+    content="You understand your business. Someone else can understand Nginx. Get managed Odoo ERP hosting without the technical homework.">
+  <meta name="keywords"
+    content="Odoo for non technical owners, easy Odoo ERP hosting, managed Odoo, Odoo without sysadmin">
+  <meta name="author" content="Carlier">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://carlier.site/odoo-hosting/pages/non-technical-owner/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://carlier.site/odoo-hosting/pages/non-technical-owner/">
+  <meta property="og:title" content="Run Odoo Without Understanding Servers">
+  <meta property="og:description"
+    content="You understand your business. Someone else can understand Nginx. Get managed Odoo ERP hosting without the technical homework.">
+  <meta property="og:image" content="https://carlier.site/odoo-hosting/images/Carlier_logo_1024x1024.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Odoo ERP Hosting logo">
+  <meta property="og:site_name" content="Odoo ERP Hosting">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://carlier.site/odoo-hosting/pages/non-technical-owner/">
+  <meta property="twitter:title" content="Run Odoo Without Understanding Servers">
+  <meta property="twitter:description"
+    content="You understand your business. Someone else can understand Nginx. Get managed Odoo ERP hosting without the technical homework.">
+  <meta property="twitter:image" content="https://carlier.site/odoo-hosting/images/Carlier_logo_1024x1024.png">
+
+  <meta name="theme-color" content="#05070f">
+  <link rel="icon" type="image/png" href="../../images/Carlier_logo_160x160.png">
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../images/Carlier_logo_512x512.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Sora:wght@500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <noscript>
+    <style>
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Odoo ERP Hosting",
+    "serviceType": "Managed Odoo Community hosting",
+    "url": "https://carlier.site/odoo-hosting/pages/non-technical-owner/",
+    "description": "Managed Odoo Community hosting with unlimited users, automated SSL, root-level security hardening, 24/7 monitoring, and optional off-site backups.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Carlier",
+      "url": "https://carlier.site/"
+    },
+    "areaServed": "Worldwide",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Monthly managed Odoo ERP hosting",
+        "price": "55.00",
+        "priceCurrency": "EUR",
+        "url": "https://buy.stripe.com/dRmbJ36J8ghmaTp8RN73G03",
+        "description": "Managed Odoo Community instance with unlimited users, automated SSL, security hardening, and 24/7 monitoring. Billed monthly."
+      },
+      {
+        "@type": "Offer",
+        "name": "Annual managed Odoo ERP hosting",
+        "price": "594.00",
+        "priceCurrency": "EUR",
+        "url": "https://buy.stripe.com/28EaEZ2sS7KQ0eL9VR73G01",
+        "description": "Managed Odoo Community instance with unlimited users, automated SSL, security hardening, and 24/7 monitoring. Billed annually — €49.50 per month equivalent."
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://carlier.site/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Odoo ERP Hosting",
+        "item": "https://carlier.site/odoo-hosting/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Non-technical owner",
+        "item": "https://carlier.site/odoo-hosting/pages/non-technical-owner/"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is included in Odoo ERP Hosting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A managed Odoo 18 Community instance with Nginx, PostgreSQL, and Odoo workers pre-configured, automated SSL certificates, root-level security hardening, 24/7 uptime monitoring, and unlimited users and records. Automated off-site backups are an optional add-on."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this Odoo Enterprise or Odoo Community?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Odoo ERP Hosting runs the open-source Odoo Community edition. It is not an Odoo Enterprise licence and does not include Enterprise-only apps."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many users can I add?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlimited. There are no per-user, per-module, or per-database fees on the plan."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does Odoo ERP Hosting cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "€55 per month, or €594 per year. The annual plan works out to €49.50 per month, a saving of €66 compared with paying monthly. Prices are in EUR and billed through Stripe."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I cancel my plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The monthly plan can be cancelled anytime and stays active until the end of the current billing period. For annual billing questions, contact support."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are backups included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Automated off-site backups are an optional add-on with a custom retention policy. The base hosting plan does not include automated off-site backups."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I migrate my existing Odoo database?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Migration is not included by default. Contact support with your current Odoo version and database size to discuss whether a migration can be arranged."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I get root access to the server?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Odoo ERP Hosting is managed hosting. You get the Odoo application; server administration, Nginx, PostgreSQL, SSL, and monitoring are handled for you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who runs Odoo ERP Hosting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Odoo ERP Hosting is part of Carlier, an independent software company that builds and operates web and AI products globally."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announcement">
+    <div class="container announcement-inner">
+      <p><span class="announcement-dot" aria-hidden="true"></span><strong>Odoo 18 Community</strong> · Unlimited users ·
+        Flat monthly price</p>
+      <a href="#offer">See the offer <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../.." aria-label="Odoo ERP Hosting — home">
+        <img src="../../images/Carlier_logo.svg" alt="" width="38" height="38">
+        <span class="brand-text">
+          <strong>Odoo ERP Hosting</strong>
+          <small>Managed Odoo Community</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#reasons">The 10 reasons</a>
+        <a href="#compare">Compare</a>
+        <a href="#proof">Proof</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="button button-primary button-small" href="#offer">View offer</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Managed Odoo Community · Global</p>
+          <h1>10 Reasons You Don't Need to Understand Servers to <span class="highlight">Run Odoo</span></h1>
+          <p class="hero-sub">You understand your business. Someone else can understand Nginx. Get an Odoo instance that's managed end to end.</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#offer">
+              Get Odoo Hosted — €55/mo
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <a class="text-link" href="#reasons">Read the 10 reasons <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <ul class="hero-trust">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                aria-hidden="true">
+                <path d="m5 12 4 4L19 6" />
+              </svg>
+              Pre-configured, production-ready
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                aria-hidden="true">
+                <path d="m5 12 4 4L19 6" />
+              </svg>
+              Unlimited users &amp; records
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                aria-hidden="true">
+                <path d="m5 12 4 4L19 6" />
+              </svg>
+              Automated SSL
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                aria-hidden="true">
+                <path d="m5 12 4 4L19 6" />
+              </svg>
+              Cancel the monthly plan anytime
+            </li>
+          </ul>
+
+          <p class="hero-note">Odoo 18 Community · Billed in EUR through Stripe</p>
+        </div>
+
+        <div class="hero-media">
+          <!-- Illustrative dashboard, not a screenshot of a customer instance. -->
+          <div class="server-window" role="img"
+            aria-label="Illustrative Odoo ERP Hosting status dashboard showing unlimited active users, 99.9 percent uptime SLA, a valid SSL certificate, and a flat monthly plan.">
+            <div class="server-bar">
+              <span class="server-dot server-dot--red"></span>
+              <span class="server-dot server-dot--yellow"></span>
+              <span class="server-dot server-dot--green"></span>
+              <span class="server-url">yourcompany.odoo-hosting.com</span>
+            </div>
+
+            <div class="server-body">
+              <div class="server-topline">
+                <span class="status-pill">All systems operational</span>
+                <span class="server-plan">Odoo 18 Community</span>
+              </div>
+
+              <div class="server-metrics">
+                <div class="server-metric">
+                  <span>Active users</span>
+                  <strong>∞</strong>
+                  <small>Unlimited</small>
+                </div>
+                <div class="server-metric server-metric--cyan">
+                  <span>Uptime SLA</span>
+                  <strong>99.9%</strong>
+                  <small>Monitored 24/7</small>
+                </div>
+                <div class="server-metric server-metric--green">
+                  <span>SSL</span>
+                  <strong>Valid</strong>
+                  <small>Auto-renewed</small>
+                </div>
+              </div>
+
+              <div class="server-rows">
+                <div class="server-row">
+                  <span>Plan</span>
+                  <strong class="value-blue">€55 / month flat</strong>
+                </div>
+                <div class="server-row">
+                  <span>PostgreSQL</span>
+                  <strong class="value-green">Optimized</strong>
+                </div>
+                <div class="server-row">
+                  <span>Nginx workers</span>
+                  <strong class="value-cyan">Tuned</strong>
+                </div>
+                <div class="server-row">
+                  <span>Monitoring</span>
+                  <strong class="value-green">24/7</strong>
+                </div>
+                <div class="server-row">
+                  <span>Hidden fees</span>
+                  <strong class="value-green">None</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-badge">
+            <img src="../../images/Carlier_logo.svg" alt="" width="20" height="20">
+            <span>Odoo 18 Community</span>
+          </div>
+
+          <div class="hero-price-card">
+            <strong>€55<span>/month</span></strong>
+            <small>Unlimited users. Flat rate.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="hero-caption">Illustrative status view. Your instance, your data.</p>
+
+        <ul class="fact-bar">
+          <li>
+            <span class="fact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </span>
+            <span><strong>Unlimited</strong> users &amp; records</span>
+          </li>
+          <li>
+            <span class="fact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <path d="M2 10h20M6 15h4" />
+              </svg>
+            </span>
+            <span><strong>€55/month</strong> flat price</span>
+          </li>
+          <li>
+            <span class="fact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+            </span>
+            <span><strong>99.9%</strong> uptime SLA</span>
+          </li>
+          <li>
+            <span class="fact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </span>
+            <span><strong>24/7</strong> monitoring</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Big promise -->
+    <section class="section promise" id="promise">
+      <div class="container promise-grid">
+        <div class="promise-head reveal">
+          <p class="eyebrow">The big promise</p>
+          <h2>Stop paying more every time your team grows.</h2>
+        </div>
+        <div class="promise-copy reveal">
+          <p class="lead">Your Odoo bill should not grow every time you hire someone.</p>
+          <p>Most hosted Odoo plans are priced per user, per module, or per database. Odoo ERP Hosting gives you one
+            managed Community instance with unlimited users and records for a flat monthly rate. Add the whole team. Add
+            the warehouse. Add the accountant. The price stays the same.</p>
+          <div class="promise-stats">
+            <div><strong>€55</strong><span>flat monthly price</span></div>
+            <div><strong>0</strong><span>per-user fees</span></div>
+            <div><strong>∞</strong><span>users &amp; records</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What you get -->
+    <section class="section meet" id="meet">
+      <div class="container meet-grid">
+        <div class="stack-card reveal">
+          <div class="stack-card-head">
+            <strong>Your managed instance</strong>
+            <span>What you get</span>
+          </div>
+          <div class="stack-list">
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+              </span>
+              <div>
+                <strong>Odoo 18 Community</strong>
+                <span>Latest stable build</span>
+              </div>
+              <span class="stack-check" aria-label="Included">✓</span>
+            </div>
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="8" ry="3" />
+                  <path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" />
+                </svg>
+              </span>
+              <div>
+                <strong>PostgreSQL</strong>
+                <span>Optimized for Odoo</span>
+              </div>
+              <span class="stack-check" aria-label="Included">✓</span>
+            </div>
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="6" rx="1" />
+                  <rect x="2" y="15" width="20" height="6" rx="1" />
+                  <path d="M6 6h.01M6 18h.01" />
+                </svg>
+              </span>
+              <div>
+                <strong>Nginx + workers</strong>
+                <span>Tuned for performance</span>
+              </div>
+              <span class="stack-check" aria-label="Included">✓</span>
+            </div>
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg>
+              </span>
+              <div>
+                <strong>Automated SSL</strong>
+                <span>Issued and renewed</span>
+              </div>
+              <span class="stack-check" aria-label="Included">✓</span>
+            </div>
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
+              </span>
+              <div>
+                <strong>24/7 monitoring</strong>
+                <span>Alerts when it matters</span>
+              </div>
+              <span class="stack-check" aria-label="Included">✓</span>
+            </div>
+            <div class="stack-item">
+              <span class="stack-icon" aria-hidden="true">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                </svg>
+              </span>
+              <div>
+                <strong>Off-site backups</strong>
+                <span>Optional add-on</span>
+              </div>
+              <span class="stack-check" aria-label="Optional add-on">+</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="meet-copy reveal">
+          <p class="eyebrow">Meet your instance</p>
+          <h2>Not a bare VPS. Not a demo. A working Odoo.</h2>
+          <p>Every instance ships pre-configured and production-ready from day one: Nginx in front, PostgreSQL behind,
+            Odoo workers tuned, SSL installed. You get the application, not a server project.</p>
+          <ul class="ticks">
+            <li>Odoo 18 Community, ready to use</li>
+            <li>SSL and firewall configured</li>
+            <li>Monitoring and alerts running</li>
+            <li>No Nginx or PostgreSQL tuning</li>
+          </ul>
+          <a class="text-link" href="#reasons">See what's under the hood <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The list -->
+    <section class="reasons" id="reasons">
+      <div class="container">
+        <div class="reasons-head reveal">
+          <p class="eyebrow">The list</p>
+          <h2>Ten reasons this is the last Odoo host you'll need.</h2>
+          <p class="section-lead">No ranking. No filler. Just the ten things that separate a managed Odoo instance from
+            another server you have to babysit.</p>
+        </div>
+
+        <!-- 01 -->
+        <article class="reason reason--intro reveal" id="reason-1">
+          <div class="reason-rail">
+            <span class="reason-num">01</span>
+            <span class="reason-kicker">The vocabulary</span>
+          </div>
+          <div class="reason-copy">
+            <h2>You don't need a Linux vocabulary to run a business.</h2>
+            <p>You shouldn't have to learn what a reverse proxy is to send an invoice. Managed hosting keeps the technical decisions on our side and gives you the application: log in, configure your company, and get to work.</p>
+            <ul class="ticks">
+              <li>No server knowledge required</li>
+              <li>Odoo ready to configure</li>
+              <li>Support for the hosting layer</li>
+            </ul>
+            <blockquote class="pull-quote">“Your expertise is the business, not the server.”</blockquote>
+          </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="reason reveal" id="reason-2">
+          <div class="reason-rail">
+            <span class="reason-num">02</span>
+            <span class="reason-kicker">The stack</span>
+          </div>
+          <div class="reason-copy">
+            <h2>A production stack, configured before you log in.</h2>
+            <p>You don't get an empty server and a wiki link. Your instance arrives with the pieces that make Odoo
+              usable in production: Nginx in front, PostgreSQL behind, workers tuned, SSL installed.</p>
+            <ul class="ticks">
+              <li>Nginx reverse proxy configured</li>
+              <li>PostgreSQL optimized for Odoo</li>
+              <li>Odoo workers tuned</li>
+              <li>Automated SSL certificates</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> Instance configuration <span
+                  class="media-tag">Odoo 18</span></div>
+              <div class="spec-list">
+                <div class="spec-row"><span>Odoo version</span><strong class="is-blue">18.0 Community</strong></div>
+                <div class="spec-row"><span>Web server</span><strong>Nginx</strong></div>
+                <div class="spec-row"><span>Database</span><strong>PostgreSQL</strong></div>
+                <div class="spec-row"><span>SSL certificate</span><strong class="is-green">Auto-renewed</strong></div>
+                <div class="spec-row"><span>Workers</span><strong class="is-cyan">Tuned</strong></div>
+                <div class="spec-row"><span>Status</span><strong class="is-green">Online</strong></div>
+              </div>
+              <p class="media-foot">Illustrative configuration. Exact versions depend on the current stable release.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="reason reveal" id="reason-3">
+          <div class="reason-rail">
+            <span class="reason-num">03</span>
+            <span class="reason-kicker">Security</span>
+          </div>
+          <div class="reason-copy">
+            <h2>SSL, firewall, and root-level hardening — handled.</h2>
+            <p>Security isn't an add-on. Certificates are issued and renewed automatically, the OS is hardened, and
+              firewall rules are applied at the server level. You don't have to remember the hardening checklist or
+              notice when a certificate is about to expire.</p>
+            <ul class="ticks">
+              <li>Automated SSL issuance and renewal</li>
+              <li>Root-level security hardening</li>
+              <li>Firewall rules applied and maintained</li>
+              <li>Security patches managed for you</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> Security posture <span
+                  class="media-tag">Managed</span></div>
+              <div class="security-list">
+                <div class="security-item"><span class="check" aria-hidden="true">✓</span><span>HTTPS enforced with a
+                    valid, auto-renewed certificate</span></div>
+                <div class="security-item"><span class="check" aria-hidden="true">✓</span><span>Firewall rules applied
+                    at the server level</span></div>
+                <div class="security-item"><span class="check" aria-hidden="true">✓</span><span>Operating system
+                    hardened against common attacks</span></div>
+                <div class="security-item"><span class="check" aria-hidden="true">✓</span><span>Security patches managed
+                    as part of the service</span></div>
+              </div>
+              <p class="media-foot">Security is managed at the server level. You focus on Odoo.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 -->
+        <article class="reason reveal" id="reason-4">
+          <div class="reason-rail">
+            <span class="reason-num">04</span>
+            <span class="reason-kicker">Monitoring</span>
+          </div>
+          <div class="reason-copy">
+            <h2>Someone is watching at 2 a.m.</h2>
+            <p>Uptime monitoring runs continuously with instant alerts, so problems are caught before they become a
+              customer-facing outage. You get a 99.9% uptime SLA and a team that already knows when something is wrong.
+            </p>
+            <ul class="ticks">
+              <li>24/7 uptime monitoring</li>
+              <li>Instant alerts on issues</li>
+              <li>99.9% uptime SLA</li>
+              <li>Proactive, not reactive</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> Live status <span
+                  class="media-tag">Monitoring</span></div>
+              <div class="spec-list">
+                <div class="spec-row"><span>Application</span><strong class="is-green">Online</strong></div>
+                <div class="spec-row"><span>SSL certificate</span><strong class="is-green">Valid</strong></div>
+                <div class="spec-row"><span>Database</span><strong class="is-cyan">Optimized</strong></div>
+                <div class="spec-row"><span>Uptime commitment</span><strong class="is-blue">99.9% SLA</strong></div>
+                <div class="spec-row"><span>Alerts</span><strong class="is-green">Enabled</strong></div>
+              </div>
+              <p class="media-foot">Illustrative monitoring view.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 05 -->
+        <article class="reason reveal" id="reason-5">
+          <div class="reason-rail">
+            <span class="reason-num">05</span>
+            <span class="reason-kicker">The handoff</span>
+          </div>
+          <div class="reason-copy">
+            <h2>Managed means managed.</h2>
+            <p>You don't get root access, and you don't need it. Nginx, PostgreSQL, SSL, monitoring, and server maintenance are handled for you. The trade is simple: less control over the box, less responsibility for the box.</p>
+            <ul class="ticks">
+              <li>No server maintenance</li>
+              <li>No Nginx or PostgreSQL tuning</li>
+              <li>Monitoring handled</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> The difference <span
+                  class="media-tag">Before / after</span></div>
+              <div class="ops-grid">
+                <div class="ops-col ops-col--before">
+                  <h4>Self-managed VPS</h4>
+                  <ul>
+                    <li>Install and configure Odoo</li>
+                    <li>Tune PostgreSQL yourself</li>
+                    <li>Renew SSL manually</li>
+                    <li>Watch uptime yourself</li>
+                  </ul>
+                </div>
+                <div class="ops-col ops-col--after">
+                  <h4>Odoo ERP Hosting</h4>
+                  <ul>
+                    <li>Log in to a working instance</li>
+                    <li>Database already optimized</li>
+                    <li>SSL renewed automatically</li>
+                    <li>24/7 monitoring included</li>
+                  </ul>
+                </div>
+              </div>
+              <p class="media-foot">A general comparison, not a claim about every provider.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 06 -->
+        <article class="reason reveal" id="reason-6">
+          <div class="reason-rail">
+            <span class="reason-num">06</span>
+            <span class="reason-kicker">Backups</span>
+          </div>
+          <div class="reason-copy">
+            <h2>Optional off-site backups, on your terms.</h2>
+            <p>The base plan keeps your instance managed; automated off-site backups are an optional add-on. Choose a
+              retention policy that fits your business, and stop relying on a manual export you might forget.</p>
+            <ul class="ticks">
+              <li>Optional add-on</li>
+              <li>Custom retention policy</li>
+              <li>Off-site copy of your data</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card backup-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> Add-on <span
+                  class="media-tag">Optional</span></div>
+              <div class="backup-top">
+                <span class="backup-icon" aria-hidden="true">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                  </svg>
+                </span>
+                <div>
+                  <strong>Automated off-site backups</strong>
+                  <span>Custom retention policy</span>
+                </div>
+              </div>
+              <div class="backup-price"><strong>€240</strong><span>add-on · billed separately via Stripe</span></div>
+              <a class="text-link" href="https://buy.stripe.com/14AcN78RgaX2gdJ7NJ73G00">Add backups <span
+                  aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 07 -->
+        <article class="reason reveal" id="reason-7">
+          <div class="reason-rail">
+            <span class="reason-num">07</span>
+            <span class="reason-kicker">The maths</span>
+          </div>
+          <div class="reason-copy">
+            <h2>€55 a month. Or €594 a year — €49.50 a month.</h2>
+            <p>The monthly plan is €55. The annual plan is €594, which works out to €49.50 a month — €66 less than paying
+              monthly. No per-user charge. No hidden line items. The price on this page is the price of the plan.</p>
+            <ul class="ticks">
+              <li>€55/month, billed monthly</li>
+              <li>€594/year (€49.50/month equivalent)</li>
+              <li>Save €66 with annual billing</li>
+              <li>Prices in EUR through Stripe</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="price-card-mini">
+              <span class="mini-label">Managed Odoo</span>
+              <p class="mini-price">€55<span>/month</span></p>
+              <p class="mini-or">or <strong>€594/year</strong></p>
+              <p class="mini-math">≈ €49.50/month · save €66</p>
+              <hr>
+              <p class="mini-note">Unlimited users. Billed in EUR. Cancel the monthly plan anytime.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 08 -->
+        <article class="reason reveal" id="reason-8">
+          <div class="reason-rail">
+            <span class="reason-num">08</span>
+            <span class="reason-kicker">Positioning</span>
+          </div>
+          <div class="reason-copy">
+            <h2>Community Edition, managed like a premium product.</h2>
+            <p>We're not reselling Odoo Enterprise licences. We run the open-source Community edition and take care of
+              the infrastructure around it. That means no per-user licence fee, no vendor lock-in, and a clear scope:
+              the core Odoo apps, hosted properly.</p>
+            <ul class="ticks">
+              <li>Open-source Odoo Community core</li>
+              <li>No per-user licence</li>
+              <li>No vendor lock-in</li>
+              <li>Clear scope, honest boundaries</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> What this is <span
+                  class="media-tag">Scope</span></div>
+              <div class="license-list">
+                <div class="license-row"><span class="check" aria-hidden="true">✓</span><span><strong>Odoo Community
+                      Edition</strong> — core apps, open source</span></div>
+                <div class="license-row"><span class="check" aria-hidden="true">✓</span><span><strong>Managed
+                      infrastructure</strong> — Nginx, PostgreSQL, SSL, monitoring</span></div>
+                <div class="license-row"><span class="check" aria-hidden="true">✓</span><span><strong>Unlimited
+                      users</strong> — no per-seat licence</span></div>
+                <div class="license-row"><span class="cross" aria-hidden="true">×</span><span><strong>Odoo Enterprise
+                      apps</strong> — not included</span></div>
+                <div class="license-row"><span class="cross" aria-hidden="true">×</span><span><strong>Custom
+                      development</strong> — not included</span></div>
+              </div>
+              <p class="media-foot">Need Enterprise apps? Use Odoo's Enterprise plan directly.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 09 -->
+        <article class="reason reveal" id="reason-9">
+          <div class="reason-rail">
+            <span class="reason-num">09</span>
+            <span class="reason-kicker">The proof</span>
+          </div>
+          <div class="reason-copy">
+            <h2>The facts, not the fluff.</h2>
+            <p>You can check the price, the stack, and the scope before you buy. There is no quote request, no “contact
+              sales” maze, and no invented user count. The checkout is live, the plan is public, and the boundaries are
+              written down.</p>
+            <ul class="ticks">
+              <li>Public EUR pricing</li>
+              <li>Live Stripe checkout</li>
+              <li>Clear Community Edition scope</li>
+              <li>Built and run by Carlier</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="media-card">
+              <div class="media-head"><span class="dot" aria-hidden="true"></span> Checkable facts <span
+                  class="media-tag">No fluff</span></div>
+              <ul class="fact-list">
+                <li><span class="num">01</span><span>Open-source Odoo Community core</span></li>
+                <li><span class="num">02</span><span>99.9% uptime SLA with 24/7 monitoring</span></li>
+                <li><span class="num">03</span><span>€55/month or €594/year in EUR via Stripe</span></li>
+                <li><span class="num">04</span><span>Optional off-site backups add-on</span></li>
+              </ul>
+              <p class="media-foot">No “call for pricing”. The offer is on this page.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="reason reveal" id="reason-10">
+          <div class="reason-rail">
+            <span class="reason-num">10</span>
+            <span class="reason-kicker">The offer</span>
+          </div>
+          <div class="reason-copy">
+            <h2>One flat price. No setup maze.</h2>
+            <p>Start with the monthly plan, or lock in the annual rate and save €66. Your instance is configured,
+              secured, and monitored. Optional backups are there if you want them. Cancel the monthly plan anytime.</p>
+            <ul class="ticks">
+              <li>€55/month or €594/year</li>
+              <li>Unlimited users and records</li>
+              <li>Automated SSL and 24/7 monitoring</li>
+              <li>Optional off-site backups</li>
+            </ul>
+          </div>
+          <div class="reason-media">
+            <div class="ticket">
+              <span class="ticket-label">The offer</span>
+              <p class="ticket-title">Your Odoo, hosted and handled.</p>
+              <div class="ticket-prices">
+                <span><strong>€55</strong>/month</span>
+                <span><strong>€594</strong>/year</span>
+              </div>
+              <a class="button button-primary button-block" href="#offer">
+                Get Odoo Hosted
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+              <p class="ticket-note">EUR · Stripe · Monthly plan cancellable anytime</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Offer -->
+    <section class="offer" id="offer">
+      <div class="container offer-grid">
+        <div class="offer-copy reveal">
+          <p class="eyebrow">The offer</p>
+          <h2>Your Odoo, hosted and handled.</h2>
+          <p class="lead">Pick the billing rhythm that suits you. Both plans include the same managed instance, unlimited
+            users, SSL, security hardening, and 24/7 monitoring.</p>
+          <ul class="ticks ticks--light">
+            <li>Odoo 18 Community, pre-configured</li>
+            <li>Unlimited users and records</li>
+            <li>Nginx, PostgreSQL, and workers tuned</li>
+            <li>Automated SSL and root-level hardening</li>
+            <li>24/7 uptime monitoring</li>
+            <li>Optional off-site backups add-on</li>
+          </ul>
+          <p class="fine">Prices in EUR. Billed through Stripe. Odoo is a trademark of Odoo S.A.; Odoo ERP Hosting is not
+            affiliated with Odoo S.A.</p>
+        </div>
+
+        <div class="offer-box reveal">
+          <div class="offer-box-head">
+            <img src="../../images/Carlier_logo.svg" alt="" width="48" height="48">
+            <div>
+              <strong>Odoo ERP Hosting</strong>
+              <span>Managed Odoo Community</span>
+            </div>
+            <span class="offer-flag">Flat rate</span>
+          </div>
+
+          <div class="checkout-grid">
+            <div class="checkout-card">
+              <div class="checkout-card-head">
+                <div>
+                  <span class="checkout-name">Monthly</span>
+                  <span class="checkout-desc">Flexible, cancel anytime</span>
+                </div>
+                <span class="checkout-price">€55<small>/mo</small></span>
+              </div>
+              <a class="button button-secondary button-block"
+                href="https://buy.stripe.com/dRmbJ36J8ghmaTp8RN73G03">
+                Start monthly — €55
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="checkout-card checkout-card--featured">
+              <div class="checkout-card-head">
+                <div>
+                  <span class="checkout-name">Annual <span class="best-value">Save €66</span></span>
+                  <span class="checkout-desc">€49.50/month equivalent</span>
+                </div>
+                <span class="checkout-price">€594<small>/yr</small></span>
+              </div>
+              <a class="button button-primary button-block"
+                href="https://buy.stripe.com/28EaEZ2sS7KQ0eL9VR73G01">
+                Start annual — €594
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <p class="offer-trust">Secure checkout via Stripe · EUR · Monthly plan cancellable anytime</p>
+
+          <div class="offer-includes">
+            <span>✓ Unlimited users</span>
+            <span>✓ Automated SSL</span>
+            <span>✓ 24/7 monitoring</span>
+            <span>✓ Security hardening</span>
+          </div>
+
+          <div class="backup-addon">
+            <span>Optional: automated off-site backups with a custom retention policy.</span>
+            <a href="https://buy.stripe.com/14AcN78RgaX2gdJ7NJ73G00">Add backups — €240 →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="section comparison" id="compare">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">The alternative</p>
+          <h2>Why not just run it on a VPS?</h2>
+          <p class="section-lead">A VPS can host Odoo. It just doesn't come with the part where someone else does the
+            work. Here's the honest comparison.</p>
+        </div>
+
+        <p class="table-hint" aria-hidden="true">Swipe the table to compare <span>→</span></p>
+        <div class="table-wrap reveal" tabindex="0" role="region"
+          aria-label="Comparison table: Odoo ERP Hosting, self-managed VPS, and per-user SaaS">
+          <table>
+            <caption class="sr-only">Comparison of Odoo ERP Hosting, a self-managed VPS, and per-user SaaS hosting
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">What matters</th>
+                <th scope="col" class="odoo-col">Odoo ERP Hosting</th>
+                <th scope="col">Self-managed VPS</th>
+                <th scope="col">Per-user SaaS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Odoo Community included</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>Install it yourself</td>
+                <td>Varies</td>
+              </tr>
+              <tr>
+                <th scope="row">Unlimited users</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>Depends on the server</td>
+                <td>Usually per user</td>
+              </tr>
+              <tr>
+                <th scope="row">Nginx and PostgreSQL tuned</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>You tune it</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Automated SSL</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>You configure it</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">24/7 monitoring</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>You monitor it</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <th scope="row">Root-level hardening</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>You harden it</td>
+                <td>Varies</td>
+              </tr>
+              <tr>
+                <th scope="row">Flat price</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>Server cost + your time</td>
+                <td>Grows with users</td>
+              </tr>
+              <tr>
+                <th scope="row">Optional off-site backups</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>You script it</td>
+                <td>Varies</td>
+              </tr>
+              <tr>
+                <th scope="row">No per-user fees</th>
+                <td class="odoo-col"><span class="mark mark--yes" role="img" aria-label="Yes">✓</span></td>
+                <td>No licence, but ops time</td>
+                <td><span class="mark mark--no" role="img" aria-label="No">×</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">General comparison, not a claim about every provider. Self-managed VPS costs exclude your
+          time. Per-user SaaS pricing varies by vendor.</p>
+      </div>
+    </section>
+
+    <!-- Proof -->
+    <section class="section proof" id="proof">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Proof, not promises</p>
+          <h2>Check the facts before you buy.</h2>
+          <p class="section-lead">You shouldn't have to take a landing page's word for it. Here's what you can verify.</p>
+        </div>
+
+        <div class="proof-grid">
+          <article class="proof-card reveal">
+            <span class="proof-num">01</span>
+            <h3>Open-source core</h3>
+            <p>Odoo Community Edition is open source. You're paying for managed infrastructure, not a locked licence.</p>
+            <a href="https://www.odoo.com/page/community" target="_blank" rel="noopener">See Odoo Community →</a>
+          </article>
+
+          <article class="proof-card reveal">
+            <span class="proof-num">02</span>
+            <h3>Live EUR pricing</h3>
+            <p>The checkout on this page is a live Stripe checkout: €55/month or €594/year. No quote request, no “contact
+              sales”.</p>
+            <a href="#offer">See the offer →</a>
+          </article>
+
+          <article class="proof-card reveal">
+            <span class="proof-num">03</span>
+            <h3>99.9% uptime SLA</h3>
+            <p>The plan includes continuous monitoring and a 99.9% uptime SLA. If something breaks, alerts fire before
+              you have to notice.</p>
+            <a href="#faq">Read the details →</a>
+          </article>
+
+          <article class="proof-card reveal">
+            <span class="proof-num">04</span>
+            <h3>Built and run by Carlier</h3>
+            <p>Odoo ERP Hosting is part of Carlier, an independent software company that builds and operates web and AI
+              products globally.</p>
+            <a href="https://carlier.site/" target="_blank" rel="noopener">More from Carlier →</a>
+          </article>
+        </div>
+
+        <!-- DRAFT founder note — approve or edit before publishing. -->
+        <aside class="founder-note reveal">
+          <div class="founder-avatar" aria-hidden="true">YC</div>
+          <div>
+            <p class="founder-quote">“I run Odoo for my own businesses. Odoo ERP Hosting is the hosting setup I wanted:
+              Community edition, configured properly, monitored, and priced so it doesn't punish you for adding a
+              colleague.”</p>
+            <p class="founder-sign">Yann Carlier, founder</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <!--
+      PLACEHOLDER REVIEWS — replace every quote, name, and role below with a verified
+      customer testimonial before publishing. These entries are sample copy written to
+      show the layout and are marked with data-placeholder="true".
+    -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="reviews-head reveal">
+          <div>
+            <p class="eyebrow">Proof from the people using it</p>
+            <h2>What teams say after the migration.</h2>
+            <p class="section-lead">A managed Odoo instance should make operations quieter: fewer tickets, fewer
+              late-night checks, fewer surprise invoices.</p>
+          </div>
+          <span class="reviews-rating"><span class="stars" aria-hidden="true">★★★★★</span> Early customer feedback</span>
+        </div>
+
+        <div class="review-grid">
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“We added eleven warehouse and accounting users in one month. The hosting bill didn't
+              move. That was the whole reason we switched.”</p>
+            <p class="review-meta"><span class="review-name">Marta K.</span><span class="review-source">Operations
+                manager</span></p>
+          </article>
+
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“The SSL and Nginx setup was already done. I logged in and started importing products
+              instead of reading a server tutorial.”</p>
+            <p class="review-meta"><span class="review-name">Tomás R.</span><span class="review-source">Founder,
+                e-commerce</span></p>
+          </article>
+
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“I stopped checking PostgreSQL logs at midnight. Monitoring does that now, and I
+              sleep.”</p>
+            <p class="review-meta"><span class="review-name">Jonas W.</span><span class="review-source">IT
+                consultant</span></p>
+          </article>
+
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“Predictable EUR billing matters when you're forecasting. One line, one amount, no
+              per-seat surprises.”</p>
+            <p class="review-meta"><span class="review-name">Aisha B.</span><span class="review-source">Finance
+                lead</span></p>
+          </article>
+
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“We run three client instances. The setup is consistent, and the stack is tuned the
+              same way every time.”</p>
+            <p class="review-meta"><span class="review-name">Sofia L.</span><span class="review-source">Agency
+                owner</span></p>
+          </article>
+
+          <article class="review-card reveal" data-placeholder="true">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">“The optional backup add-on was the clincher. We set a retention policy and stopped
+              relying on manual exports.”</p>
+            <p class="review-meta"><span class="review-name">Daniel P.</span><span class="review-source">COO</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Questions</p>
+          <h2>The honest answers.</h2>
+          <p class="section-lead">What's included, what it costs, and where the boundaries are.</p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>What is included in Odoo ERP Hosting?</summary>
+            <p>A managed Odoo 18 Community instance with Nginx, PostgreSQL, and Odoo workers pre-configured, automated
+              SSL certificates, root-level security hardening, 24/7 uptime monitoring, and unlimited users and records.
+              Automated off-site backups are an optional add-on.</p>
+          </details>
+
+          <details>
+            <summary>Is this Odoo Enterprise or Odoo Community?</summary>
+            <p>Odoo ERP Hosting runs the open-source Odoo Community edition. It is not an Odoo Enterprise licence and
+              does not include Enterprise-only apps. If you need those apps, use Odoo's Enterprise plan directly.</p>
+          </details>
+
+          <details>
+            <summary>How many users can I add?</summary>
+            <p>Unlimited. There are no per-user, per-module, or per-database fees on the plan. Add the whole team without
+              watching a user counter.</p>
+          </details>
+
+          <details>
+            <summary>How much does it cost?</summary>
+            <p>€55 per month, or €594 per year. The annual plan works out to €49.50 per month — a saving of €66 compared
+              with paying monthly. Prices are in EUR and billed through Stripe. Optional off-site backups are €240.</p>
+          </details>
+
+          <details>
+            <summary>Can I cancel my plan?</summary>
+            <p>The monthly plan can be cancelled anytime and stays active until the end of the current billing period.
+              For annual billing questions, contact <a href="mailto:hello@carlier.site">hello@carlier.site</a>.</p>
+          </details>
+
+          <details>
+            <summary>Are backups included?</summary>
+            <p>Automated off-site backups are an optional add-on with a custom retention policy. The base hosting plan
+              does not include automated off-site backups, so add the backups plan if you need them.</p>
+          </details>
+
+          <details>
+            <summary>Can I migrate my existing Odoo database?</summary>
+            <p>Migration is not included by default. Contact <a href="mailto:hello@carlier.site">hello@carlier.site</a>
+              with your current Odoo version and database size to discuss whether a migration can be arranged.</p>
+          </details>
+
+          <details>
+            <summary>Do I get root access to the server?</summary>
+            <p>No. Odoo ERP Hosting is managed hosting. You get the Odoo application; server administration, Nginx,
+              PostgreSQL, SSL, and monitoring are handled for you.</p>
+          </details>
+
+          <details>
+            <summary>Who runs Odoo ERP Hosting?</summary>
+            <p>Odoo ERP Hosting is part of Carlier, an independent software company that builds and operates web and AI
+              products globally. Odoo is a trademark of Odoo S.A.; this service is not affiliated with Odoo S.A.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <img src="../../images/Carlier_logo_512x512.png" alt="Odoo ERP Hosting logo" width="76" height="76"
+          loading="lazy">
+        <p class="eyebrow">Odoo, hosted and handled</p>
+        <h2>Your Odoo should work for you — not the other way round.</h2>
+        <p>€55/month or €594/year. Unlimited users. Managed, monitored, and secured.</p>
+        <a class="button button-primary button-large" href="#offer">
+          Get Odoo Hosted
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+        <p class="final-note">EUR · Stripe · Monthly plan cancellable anytime</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand brand--footer" href="../..">
+        <img src="../../images/Carlier_logo.svg" alt="" width="36" height="36">
+        <span class="brand-text">
+          <strong>Odoo ERP Hosting</strong>
+          <small>Managed Odoo Community</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="../..">Odoo ERP hosting without a server admin</a>
+        <a href="../../AutoBackUps.html">Backups</a>
+        <a href="https://carlier.site/">Carlier.site</a>
+        <a href="mailto:hello@carlier.site">Support</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Odoo ERP Hosting. Odoo is a trademark of Odoo S.A. This service is not affiliated with Odoo S.A.</p>
+      <div class="footer-legal">
+        <a href="../../../legal/privacy_policy.html">Privacy</a>
+        <a href="../../../legal/terms_of_service.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-cta" data-sticky-cta inert>
+    <div class="container sticky-inner">
+      <div class="sticky-copy">
+        <strong>Your Odoo, hosted and handled.</strong>
+        <span>€55/mo · €594/yr · Unlimited users</span>
+      </div>
+      <a class="button button-primary button-small" href="#offer">
+        Get started
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

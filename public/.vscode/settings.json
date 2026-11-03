@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^mkdir -p \\.firecrawl && firecrawl scrape \"https://carlier\\.site/\" --wait-for 3000 --format markdown,html,screenshot -o \\.firecrawl/carlier-site\\.json$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
